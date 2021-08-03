@@ -37,6 +37,10 @@ a:hover {
 /*-------------------------------------------------*/
 /************ SETTING FOR HEADING ******************/
 /*-------------------------------------------------*/
+.header-top {
+    max-width: 1040px;
+    margin: 0 auto;
+}
 .wrapper {
     max-width: 1040px;
     margin: 0 auto;
@@ -66,10 +70,13 @@ a:hover {
 .header-nav {
     position: relative;
     align-items: center;
+    background-color: #095AAA;
 }
 .header-nav__content--ul {
     display: flex;
-    background-color: #095AAA
+    width: 1040px;
+    margin: 0 auto;
+    /* background-color: #095AAA */
 }
 .header-nav__content--ul ul {
     display: flex;
@@ -100,6 +107,8 @@ a:hover {
 }
 /*************DESIGN FOR NAV AFTER **********************/
 #header-nav__site {
+    width: 1040px;
+    margin: 0 auto;
     overflow: hidden;
     position: absolute;
     right: 0px;
@@ -785,20 +794,17 @@ a:hover {
 }
 
 .footer-infor--capacity {
-    width: 1520px;
+    width: 1040px;
     margin: 0 auto;
 }
 
 .footer-infor--content {
     display: flex;
     margin-top: 50px;
-    margin-left: 180px;
-    margin-right: 180px;
 }
 
 .footer-infor__logo {
     margin-right: 50px;
-    /* position: relative; */
 }
 
 .footer-infor__logo-2--1 {
