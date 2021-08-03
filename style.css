@@ -22,6 +22,7 @@ body {
     line-height: 1.6;
     background-color: #ffffff;
     color: #555;
+    min-width: fit-content;
 }
 /*-------------------------------------------------*/
 /* SETTING FOR LINKS */
@@ -37,12 +38,8 @@ a:hover {
 /*-------------------------------------------------*/
 /************ SETTING FOR HEADING ******************/
 /*-------------------------------------------------*/
-.header-top {
-    max-width: 1040px;
-    margin: 0 auto;
-}
 .wrapper {
-    max-width: 1040px;
+    width: 1040px;
     margin: 0 auto;
 }
 .header-top {
@@ -50,6 +47,8 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 40px 0px;
+    width: 1040px;
+    margin: 0 auto;
 }
 .header-top__ul {
     display: flex;
@@ -68,7 +67,7 @@ a:hover {
 }
 /***********************DESIGN FOR NAV*********************/
 .header-nav {
-    position: relative;
+    /* position: relative; */
     align-items: center;
     background-color: #095AAA;
 }
@@ -76,7 +75,6 @@ a:hover {
     display: flex;
     width: 1040px;
     margin: 0 auto;
-    /* background-color: #095AAA */
 }
 .header-nav__content--ul ul {
     display: flex;
@@ -124,6 +122,8 @@ a:hover {
     z-index: 2;
     background-color: #ffffff;
     border-top: 5px solid #E0E0E0;  
+    /* width: 100%;
+    margin: 0 auto; */
 }
 .header-nav__site-content {
     margin: 20px 20px;
@@ -582,10 +582,6 @@ a:hover {
     margin-right: 10px;
 }
 
-.video-bottom__left-img {
-    display: flex;
-}
-
 .video-bottom__left-img--1 {
     position: absolute;
 }
@@ -657,7 +653,6 @@ a:hover {
     text-transform: uppercase;
     color: #147ADE;
 }
-
 
 /******************LAST******************/
 
@@ -774,28 +769,21 @@ a:hover {
     line-height: 19px;
     color: #121212;
 }
-
 .last-right {
     background-color: #E6E6E6;
     width: 29%;
 }
 
-
 /*****************FOOTER****************/
-
 .footer {
     margin-top: 40px;
     background-color: #095AAA;
 }
 
 .footer-info {
-    
-    border-top: 1px solid #E6E6E6;
-}
-
-.footer-infor--capacity {
     width: 1040px;
     margin: 0 auto;
+    border-top: 1px solid #E6E6E6;
 }
 
 .footer-infor--content {
