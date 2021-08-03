@@ -1,411 +1,406 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Home | DN&TT</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="báo điện tử, tin tức, luật pháp,">
-        <meta name="description" content="">
-        <link rel="stylesheet" href="style.css">
-        
-        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-        <script>
-            $(function() {
-                $('header-nav__content').addClass('js');
-                var $button_menu = $('.button_menu'),
-                $nav = $('#header-nav__site');
-                $button_menu.click(function(){
-                    $(this).toggleClass('is-active');
-                    $nav.toggleClass('is-active');
-                    return false;
-                });
-            });
-        </script>
-    </head>
 
-    <body>
+<head>
+    <meta charset="utf-8">
+    <title>Home | DN&TT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="báo điện tử, tin tức, luật pháp,">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('header-nav__content').addClass('js');
+            var $button_menu = $('.button_menu'),
+                $nav = $('#header-nav__site');
+            $button_menu.click(function () {
+                $(this).toggleClass('is-active');
+                $nav.toggleClass('is-active');
+                return false;
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- header -->
         <header class="header">
-            <div class="header-container">
-                <div class="header-container__top">
-                    <div class="header-top">
-                        <h1 class="header-top__logo">
-                            <a title="DT&TT" href="#">
-                                <img src="./img/logo_header.png" alt="logo_header">
-                            </a>
-                        </h1>
-                        <ul class="header-top__ul">
-                            <li class="header-top__ul--li">
-                                <a href="#" title=""><img src="./img/header_vector.png" alt="header_vector"></a>
-                            </li>
-                            <li class="header-top__ul--li"><a href="#" title=""># Biểu tình lan ra tại Mỹ</a></li>
-                            <li class="header-top__ul--li"><a href="#" title=""># Nhân sự,Đại hội Đảng các cấp</a></li>
-                            <li class="header-top__ul--li"><a href="#" title=""># Dịch Covid19</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="header-top">
+                <h1 class="header-top__logo">
+                    <a title="DT&TT" href="#">
+                        <img src="./img/logo_header.png" alt="logo_header">
+                    </a>
+                </h1>
+                <ul class="header-top__ul">
+                    <li class="header-top__ul--li">
+                        <a href="#" title=""><img src="./img/header_vector.png" alt="header_vector"></a>
+                    </li>
+                    <li class="header-top__ul--li"><a href="#" title=""># Biểu tình lan ra tại Mỹ</a></li>
+                    <li class="header-top__ul--li"><a href="#" title=""># Nhân sự,Đại hội Đảng các cấp</a></li>
+                    <li class="header-top__ul--li"><a href="#" title=""># Dịch Covid19</a></li>
+                </ul>
             </div>
             <div class="header-nav">
-                <div class="header-nav__content">
-                    <!-- nav before -->
-                    <nav class="header-nav__content--ul">
-                        <ul>
-                            <li class="header-nav__ul-li">
-                                <a href="#" title=""><img src="./img/logo_home.png" alt="logo_home">TRANG CHỦ</a>
-                            </li>
-                            <li class="header-nav__ul-li"><a href="#" title="">SỰ KIỆN</a></li>
-                            <li class="header-nav__ul-li"><a href="#" title="">DOANH NGHIỆP</a></li>
-                            <li class="header-nav__ul-li"><a href="#" title="">TIẾP THỊ</a></li>
-                            <li class="header-nav__ul-li"><a href="#" title="">KINH TẾ</a></li>
-                            <li class="header-nav__ul-li"><a href="#" title="">XÃ HỘI</a></li>
-                            <li class="header-nav__ul-li"><a href="#" title="">PHÁP LUẬT</a></li>
-                            <li class="header-nav__ul-li"><a href="#" title="">QUỐC TẾ</a></li>
-                            <li class="header-nav__ul-li"><a href="#" title="">VIDEO</a></li>
-                            <li class="header-nav__ul-li">
-                                <a href="#" title=""><img src="./img/header_search.png" alt=""></a>
-                            </li>
-                        </ul>
-                        <div class="header-nav__content--menu">
-                            <button class="button_menu" type="button">
-                                <img class="content--menu-list__img" src="./img/header_menu.png" alt="">
-                                
-                            </button>
-                        </div>
-                    </nav>
-                    <!-- nav after -->
-                    <nav id="header-nav__site" role="navigation" class="">
-                        <div class="header-nav__site-content">
-                            <!-- nav after top -->
-                            <div class="header-nav__site-content--top">
-                                <div class="site-content--top__block">
-                                    <h2>
-                                        <a href="#" title="">SỰ KIỆN</a>
-                                    </h2>
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="">Chính trị - Xã hội</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Cải cách hành chính</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Tiêu điểm</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Tin địa phương</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Hoạt động của Hội</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="site-content--top__block">
-                                    <h2>
-                                        <a href="#" title="">DOANH NGHIỆP</a>
-                                    </h2>
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="">Diễn đàn</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Thương hiệu</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Thông tin thương hiệu</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Trách nhiệm xã hội</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Khởi nghiệp</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="site-content--top__block">
-                                    <h2>
-                                        <a href="#" title="">TIẾP THỊ</a>
-                                    </h2>
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="">Nhịp đập thị trường</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Tiếp thị số</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Dịch vụ</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Bảo vệ người tiêu dùng</a>
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
-                                <div class="site-content--top__block">
-                                    <h2>
-                                        <a href="#" title="">KINH TẾ</a>
-                                    </h2>
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="">Kinh doanh</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Tài chính - Đầu tư</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Ngân hàng</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Bất động sản</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Chứng khoán</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="site-content--top__block">
-                                    <h2>
-                                        <a href="#" title="">XÃ HỘI</a>
-                                    </h2>
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="">Văn hóa</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Giáo dục</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Sức khỏe</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Du lịch</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Ẩm thực</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="site-content--top__block">
-                                    <h2>
-                                        <a href="#" title="">PHÁP LUẬT</a>
-                                    </h2>
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="">Chính sách mới</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Tiếp thị và Pháp luật</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Tư vấn</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Luật sư của bạn</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Đơn thư bạn đọc</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="site-content--top__block">
-                                    <h2>
-                                        <a href="#" title="">QUỐC TẾ</a>
-                                    </h2>
-                                    <ul>
-                                        <li>
-                                            <a href="#" title="">Thế giới 24H</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Tư liệu</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="">Phân tích-Bình luận</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                
-                            </div>
-                            <!-- <div class="header-nav__site-border"></div> -->
-                            <!-- nav after bottom -->
-                            <div class="header-nav__site-content--bottom">
-                                <div class="site-content__block">
-                                    <div class="site-content__block--icon">
-                                        <img src="./img/nar_after_1.png" alt="">
-                                    </div>
-                                    <h2>
-                                        <a href="#" title="">VIDEO</a>
-                                    </h2>
-                                </div>
-                                <div class="site-content__block">
-                                    <div class="site-content__block--icon">
-                                        <img src="./img/nav_after_2.png" alt="">
-                                    </div>
-                                    <h2>
-                                        <a href="#" title="">ẢNH</a>
-                                    </h2>
-                                </div>
-                                <div class="site-content__block">
-                                    <div class="site-content__block--icon">
-                                        <img src="./img/nav_after_3.png" alt="">
-                                    </div>
-                                    <h2>
-                                        <a href="#" title="">INFOGRAPHIC</a>
-                                    </h2>
-                                </div>
-                                <div class="site-content__block">
-                                    <div class="site-content__block--icon">
-                                        <img src="./img/nav_after_4.png" alt="">
-                                    </div>
-                                    <h2>
-                                        <a href="#" title="">EMAGAZINE</a>
-                                    </h2>
-                                </div>
-                                <div class="site-content__block">
-                                    <div class="site-content__block--icon">
-                                        <img src="./img/nav_after_5.png" alt="">
-                                    </div>
-                                    <h2>
-                                        <a href="#" title="">TẠP CHÍ IN</a>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+                <!-- nav before -->
+                <nav class="header-nav__content--ul">
+                    <ul>
+                        <li class="header-nav__ul-li">
+                            <a href="#" title=""><img src="./img/logo_home.png" alt="logo_home">TRANG CHỦ</a>
+                        </li>
+                        <li class="header-nav__ul-li"><a href="#" title="">SỰ KIỆN</a></li>
+                        <li class="header-nav__ul-li"><a href="#" title="">DOANH NGHIỆP</a></li>
+                        <li class="header-nav__ul-li"><a href="#" title="">TIẾP THỊ</a></li>
+                        <li class="header-nav__ul-li"><a href="#" title="">KINH TẾ</a></li>
+                        <li class="header-nav__ul-li"><a href="#" title="">XÃ HỘI</a></li>
+                        <li class="header-nav__ul-li"><a href="#" title="">PHÁP LUẬT</a></li>
+                        <li class="header-nav__ul-li"><a href="#" title="">QUỐC TẾ</a></li>
+                        <li class="header-nav__ul-li"><a href="#" title="">VIDEO</a></li>
+                        <li class="header-nav__ul-li">
+                            <a href="#" title=""><img src="./img/header_search.png" alt=""></a>
+                        </li>
+                    </ul>
+                    <div class="header-nav__content--menu">
+                        <button class="button_menu" type="button">
+                            <img class="content--menu-list__img" src="./img/header_menu.png" alt="">
 
+                        </button>
+                    </div>
+                </nav>
+                <!-- nav after -->
+                <nav id="header-nav__site" role="navigation" class="">
+                    <div class="header-nav__site-content">
+                        <!-- nav after top -->
+                        <div class="header-nav__site-content--top">
+                            <div class="site-content--top__block">
+                                <h2>
+                                    <a href="#" title="">SỰ KIỆN</a>
+                                </h2>
+                                <ul>
+                                    <li>
+                                        <a href="#" title="">Chính trị - Xã hội</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Cải cách hành chính</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Tiêu điểm</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Tin địa phương</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Hoạt động của Hội</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site-content--top__block">
+                                <h2>
+                                    <a href="#" title="">DOANH NGHIỆP</a>
+                                </h2>
+                                <ul>
+                                    <li>
+                                        <a href="#" title="">Diễn đàn</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Thương hiệu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Thông tin thương hiệu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Trách nhiệm xã hội</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Khởi nghiệp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site-content--top__block">
+                                <h2>
+                                    <a href="#" title="">TIẾP THỊ</a>
+                                </h2>
+                                <ul>
+                                    <li>
+                                        <a href="#" title="">Nhịp đập thị trường</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Tiếp thị số</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Dịch vụ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Bảo vệ người tiêu dùng</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="site-content--top__block">
+                                <h2>
+                                    <a href="#" title="">KINH TẾ</a>
+                                </h2>
+                                <ul>
+                                    <li>
+                                        <a href="#" title="">Kinh doanh</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Tài chính - Đầu tư</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Ngân hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Bất động sản</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Chứng khoán</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site-content--top__block">
+                                <h2>
+                                    <a href="#" title="">XÃ HỘI</a>
+                                </h2>
+                                <ul>
+                                    <li>
+                                        <a href="#" title="">Văn hóa</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Giáo dục</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Sức khỏe</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Du lịch</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Ẩm thực</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site-content--top__block">
+                                <h2>
+                                    <a href="#" title="">PHÁP LUẬT</a>
+                                </h2>
+                                <ul>
+                                    <li>
+                                        <a href="#" title="">Chính sách mới</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Tiếp thị và Pháp luật</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Tư vấn</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Luật sư của bạn</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Đơn thư bạn đọc</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site-content--top__block">
+                                <h2>
+                                    <a href="#" title="">QUỐC TẾ</a>
+                                </h2>
+                                <ul>
+                                    <li>
+                                        <a href="#" title="">Thế giới 24H</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Tư liệu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">Phân tích-Bình luận</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- <div class="header-nav__site-border"></div> -->
+                        <!-- nav after bottom -->
+                        <div class="header-nav__site-content--bottom">
+                            <div class="site-content__block">
+                                <div class="site-content__block--icon">
+                                    <img src="./img/nar_after_1.png" alt="">
+                                </div>
+                                <h2>
+                                    <a href="#" title="">VIDEO</a>
+                                </h2>
+                            </div>
+                            <div class="site-content__block">
+                                <div class="site-content__block--icon">
+                                    <img src="./img/nav_after_2.png" alt="">
+                                </div>
+                                <h2>
+                                    <a href="#" title="">ẢNH</a>
+                                </h2>
+                            </div>
+                            <div class="site-content__block">
+                                <div class="site-content__block--icon">
+                                    <img src="./img/nav_after_3.png" alt="">
+                                </div>
+                                <h2>
+                                    <a href="#" title="">INFOGRAPHIC</a>
+                                </h2>
+                            </div>
+                            <div class="site-content__block">
+                                <div class="site-content__block--icon">
+                                    <img src="./img/nav_after_4.png" alt="">
+                                </div>
+                                <h2>
+                                    <a href="#" title="">EMAGAZINE</a>
+                                </h2>
+                            </div>
+                            <div class="site-content__block">
+                                <div class="site-content__block--icon">
+                                    <img src="./img/nav_after_5.png" alt="">
+                                </div>
+                                <h2>
+                                    <a href="#" title="">TẠP CHÍ IN</a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </header>
-        <div class="main">
-            <div class="main-container">
-                <div class="main-container--con">
-                    <div class="main-container__first">
-                        <div class="group-a">
-                            <div class="group-a__row">
-                                <div class="group-a__row--cell">
-                                    <h2 class="cell-title">DOANH NGHIỆP</h2>
-                                    <div class="a__cell-content">
-                                        <a href="#" title="">
-                                            T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh phúc được nhân lên
-                                        </a>
-                                    </div>
-                                    <div class="cell-line"></div>
-                                </div>
-                                <div class="group-a__row--cell">
-                                    <h2 class="cell-title">KINH TẾ</h2>
-                                    <div class="a__cell-content">
-                                        <a href="#" title="">
-                                            Hdbank tham gia Tradeassets nhằm số hóa hoạt động tài trợ thương mại
-                                        </a>
-                                    </div>
-                                    <div class="cell-line"></div>
-                                </div>
-                                <div class="group-a__row--cell">
-                                    <h2 class="cell-title">XÃ HỘI</h2>
-                                    <div class="a__cell-content">
-                                        <a href="#" title="">
-                                            <div class="row-img">
-                                                <img class="icon" src="./img/group_a.png" alt="">
-                                            </div>
-                                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện
-                                        </a>
-                                    </div>
-                                    <div class="cell-line"></div>
-                                </div>
-                                <div class="group-a__row--cell">
-                                    <h2 class="cell-title">PHÁP LUẬT</h2>
-                                    <div class="a__cell-content">
-                                        <a href="#" title="">
-                                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
-                                        </a>
-                                    </div>
-                                </div>
+        <!-- main-container -->
+        <div class="main-container">
+            <div class="group-a">
+                <div class="group-a__row--cell">
+                    <h2 class="cell-title">DOANH NGHIỆP</h2>
+                    <div class="a__cell-content">
+                        <a href="#" title="">
+                            T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh phúc được nhân lên
+                        </a>
+                    </div>
+                    <div class="cell-line"></div>
+                </div>
+                <div class="group-a__row--cell">
+                    <h2 class="cell-title">KINH TẾ</h2>
+                    <div class="a__cell-content">
+                        <a href="#" title="">
+                            Hdbank tham gia Tradeassets nhằm số hóa hoạt động tài trợ thương mại
+                        </a>
+                    </div>
+                    <div class="cell-line"></div>
+                </div>
+                <div class="group-a__row--cell">
+                    <h2 class="cell-title">XÃ HỘI</h2>
+                    <div class="a__cell-content">
+                        <a href="#" title="">
+                            <div class="row-img">
+                                <img class="icon" src="./img/group_a.png" alt="">
                             </div>
+                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện
+                        </a>
+                    </div>
+                    <div class="cell-line"></div>
+                </div>
+                <div class="group-a__row--cell">
+                    <h2 class="cell-title">PHÁP LUẬT</h2>
+                    <div class="a__cell-content">
+                        <a href="#" title="">
+                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="collumn-line"></div>
+            <div class="group-b">
+                <a class="group-b__row--news" href="#"
+                    title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình thường mới&quot;">
+                    <img src="./img/group_b.png" alt="">
+                </a>
+                <div class="group-b__row--content">
+                    <h2 class="cell-title">XÃ HỘI</h2>
+                    <div class="content-title">
+                        <a href="#">
+                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
+                        </a>
+                    </div>
+                    <div class="content-news">
+                        <a href="#">
+                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp
+                            trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác
+                            nhận thêm
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="collumn-line"></div>
+            <div class="group-c">
+                <div class="group-c__row--cell">
+                    <div class="c-title">
+                        <a href="#" title="">
+                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
+                        </a>
+                    </div>
+                    <div class="c-content">
+                        <div class="c-content__thumbnall">
+                            <img src="./img/group_c_1.png" alt="">
                         </div>
-                        <div class="collumn-line"></div>
-                        <div class="group-b">
-                            <div class="group-b__row">
-                                <a class="group-b__row--news" href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình thường mới&quot;">
-                                    <div class="group-b__row--thumbnall">
-                                        <img src="./img/group_b.png" alt="">
-                                    </div>
+                        <div class="c-content__news">
+                            <div class="cell-title">KINH TẾ</div>
+                            <div class="c-content__news--c">
+                                <a href="#"
+                                    title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình thường mới&quot;">
+                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp
+                                    khẩn cấp trong đêm để...
                                 </a>
-                                <div class="group-b__row--content">
-                                    <h2 class="cell-title">XÃ HỘI</h2>
-                                    <div class="content-title">
-                                        <a href="#">
-                                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
-                                        </a>
-                                    </div>
-                                    <div class="content-news">
-                                        <a href="#">
-                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm
-                                        </a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                        <div class="collumn-line"></div>
-                        <div class="group-c">
-                            <div class="group-c__row">
-                                <div class="group-c__row--cell">
-                                    <div class="c-title">
-                                        <a href="#" title="">
-                                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
-                                        </a>
-                                    </div>
-                                    <div class="c-content">
-                                        <div class="c-content__thumbnall">
-                                            <img src="./img/group_c_1.png" alt="">
-                                        </div>
-                                        <div class="c-content__news">
-                                            <div class="cell-title">KINH TẾ</div>
-                                            <div class="c-content__news--c">
-                                                <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình thường mới&quot;">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+                </div>
 
-                                <div class="c-cell__line"></div>
+                <div class="c-cell__line"></div>
 
-                                <div class="group-c__row--cell">
-                                    <div class="c-title">
-                                        <a href="#" title="">
-                                            Hà Nội triển khai một số nhiệm vụ tài chính - ngân sách trong điều kiện ảnh hưởng của dịch bệnh Covid-19
-                                        </a>
-                                    </div>
-                                    <div class="c-content">
-                                        <div class="c-content__thumbnall">
-                                            <img src="./img/group_c_2.png" alt="">
-                                        </div>
-                                        <div class="c-content__news">
-                                            <div class="cell-title">PHÁP LUẬT</div>
-                                            <div class="c-content__news--c">
-                                                <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình thường mới&quot;">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để...
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="group-c__row--cell">
+                    <div class="c-title">
+                        <a href="#" title="">
+                            Hà Nội triển khai một số nhiệm vụ tài chính - ngân sách trong điều kiện ảnh hưởng của
+                            dịch bệnh Covid-19
+                        </a>
+                    </div>
+                    <div class="c-content">
+                        <div class="c-content__thumbnall">
+                            <img src="./img/group_c_2.png" alt="">
+                        </div>
+                        <div class="c-content__news">
+                            <div class="cell-title">PHÁP LUẬT</div>
+                            <div class="c-content__news--c">
+                                <a href="#"
+                                    title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình thường mới&quot;">
+                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp
+                                    khẩn cấp trong đêm để...
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <ul class="list-boder">
-                <li class="boder"></li>
-                <li class="boder"></li>
-                <li class="boder"></li>
-                <li class="boder"></li>
-                <li class="boder"></li>
-            </ul>
-            <!-- extra1 -->
-            <div class="extra1">
-                <div class="extra1__content">
-                    <div class="extra1-col">
-                        <!-- marketing -->
+        </div>
+        <!-- list-boder -->
+        <ul class="list-boder">
+            <li class="boder"></li>
+            <li class="boder"></li>
+            <li class="boder"></li>
+            <li class="boder"></li>
+            <li class="boder"></li>
+        </ul>
+        <!-- extra1 -->
+        <div class="extra1">
+            <div class="extra1__content">
+                <div class="extra1-col">
+                    <!-- marketing -->
+                    <div class="marketing">
                         <div class="extra1-col__title">
                             <h2>TIẾP THỊ</h2>
                             <div class="extra1-col__title-ul">
@@ -441,21 +436,24 @@
                                 <div class="content--col__text">
                                     <h2>
                                         <a href="#" title="">
-                                            <img class="icon" src="./img/extra1_col_22.png"> Gam hồng thương mại điện tử trong dịch Covid-19
+                                            <img class="icon" src="./img/extra1_col_22.png"> Gam hồng thương mại điện tử
+                                            trong dịch Covid-19
                                         </a>
                                     </h2>
                                 </div>
                             </div>
                             <div class="content--col">
                                 <div class="content--col__img">
-                                    <a href="#" title="10 cách giúp doanh nghiệp làm việc hiệu quả trong “Trạng thái bình thường mới”">
+                                    <a href="#"
+                                        title="10 cách giúp doanh nghiệp làm việc hiệu quả trong “Trạng thái bình thường mới”">
                                         <img src="./img/extra1_col_3.png" alt="">
                                     </a>
                                 </div>
                                 <div class="content--col__text">
                                     <h2>
                                         <a href="#" title="">
-                                            10 cách giúp doanh nghiệp làm việc hiệu quả trong “Trạng thái bình thường mới”
+                                            10 cách giúp doanh nghiệp làm việc hiệu quả trong “Trạng thái bình thường
+                                            mới”
                                         </a>
                                     </h2>
                                 </div>
@@ -490,7 +488,8 @@
                             </div>
                             <div class="content--col">
                                 <div class="content--col__img">
-                                    <a href="#" title="10 cách giúp doanh nghiệp làm việc hiệu quả trong “Trạng thái bình thường”">
+                                    <a href="#"
+                                        title="10 cách giúp doanh nghiệp làm việc hiệu quả trong “Trạng thái bình thường”">
                                         <img src="./img/extra1_col_6.png" alt="">
                                     </a>
                                 </div>
@@ -503,1079 +502,1130 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="extra1-col__line"></div>
-                        <!-- social -->
-                        <div class="extra1-col__social">
-                            <!-- social 1 -->
-                            <div class="extra1-col__social--block">
-                                <div class="social-block">
-                                    <div class="social-block__img">
-                                        <a href="#" title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
-                                            <img src="./img/social_1.png" alt="">
+                    </div>
+                    <div class="extra1-col__line"></div>
+                    <!-- social -->
+                    <div class="extra1-col__social">
+                        <!-- social 1 -->
+                        <div class="extra1-col__social--block">
+                            <div class="social-block">
+                                <div class="social-block__img">
+                                    <a href="#"
+                                        title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
+                                        <img src="./img/social_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="social-block__news">
+                                    <div class="social-block__news--title">
+                                        <a href="#" title="">
+                                            <h2>
+                                                Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh
+                                                chóng?
+                                            </h2>
                                         </a>
                                     </div>
-                                    <div class="social-block__news">
-                                        <div class="social-block__news--title">
-                                            <a href="#" title="">
-                                                <h2>
-                                                    Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?
-                                                </h2>
-                                            </a>
-                                        </div>
-                                        <div class="cell-title">KINH TẾ</div>
-                                        <div class="social-block__news--content">
-                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm
-                                        </div>
+                                    <div class="cell-title">KINH TẾ</div>
+                                    <div class="social-block__news--content">
+                                        Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
+                                        họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
+                                        Cuộc họp đã công bố xác nhận thêm
                                     </div>
                                 </div>
-                                <div class="social-line"></div>
                             </div>
-                            <!-- social 2 -->
-                            <div class="extra1-col__social--block">
-                                <div class="social-block">
-                                    <div class="social-block__img">
-                                        <a href="#" title="Giảm 50% phí trước bạ ô tô: Xe sang có giá lăn bánh giảm &quot;khủng&quot;">
-                                            <img src="./img/social_2.png" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="social-block__news">
-                                        <div class="social-block__news--title">
-                                            <a href="#" title="">
-                                                <h2>
-                                                    Giảm 50% phí trước bạ ô tô: Xe sang có giá lăn bánh giảm "khủng"
-                                                </h2>
-                                            </a>
-                                        </div>
-                                        <div class="cell-title">XÃ HỘI</div>
-                                        <div class="social-block__news--content">
-                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan...
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="social-line"></div>
-                            </div>
-                            <!-- social 3 -->
-                            <div class="extra1-col__social--block">
-                                <div class="social-block">
-                                    <div class="social-block__img">
-                                        <a href="#" title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
-                                            <img src="./img/social_3.png" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="social-block__news">
-                                        <div class="social-block__news--title">
-                                            <a href="#" title="">
-                                                <h2>
-                                                    Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?
-                                                </h2>
-                                            </a>
-                                        </div>
-                                        <div class="cell-title">KINH TẾ</div>
-                                        <div class="social-block__news--content">
-                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="social-line"></div>
-                            </div>
-                            <!-- social 4 -->
-                            <div class="extra1-col__social--block">
-                                <div class="social-block">
-                                    <div class="social-block__img">
-                                        <a href="#" title="Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?">
-                                            <img src="./img/social_4.png" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="social-block__news">
-                                        <div class="social-block__news--title">
-                                            <a href="#" title="">
-                                                <h2>
-                                                    Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?
-                                                </h2>
-                                            </a>
-                                        </div>
-                                        <div class="cell-title">KINH TẾ</div>
-                                        <div class="social-block__news--content">
-                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="social-line"></div>
-                            </div>
+                            <div class="social-line"></div>
                         </div>
-                        <!-- magazine -->
-                        <div class="extra1-col__magazine">
-                            <!-- block normal -->
-                            <div class="extra1-col__magazine--block">
-                                <!-- block-normal -->
-                                <div class="magazine--block__normal">
-                                    <h2>EMAGAZINE</h2>
-                                    <div class="block__normal">
-                                        <!-- normal 1 -->
-                                        <div class="block__normal--form">
-                                            <div class="normal--form__img">
-                                                <div class="normal--form__img-card">
-                                                    <img src="./img/magazine_normal_1.png" alt="">
-                                                    <div class="normal--form__img-title">
-                                                        <a href="#" title="">
-                                                            <img src="./img/magazine_normal_11.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="normal--form__content">
-                                                <h2>
-                                                    <a href="#" title="">
-                                                        Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                    </a>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <!-- normal 2 -->
-                                        <div class="block__normal--form">
-                                            <div class="normal--form__img">
-                                                <div class="normal--form__img-card">
-                                                    <img src="./img/magazine_normal_2.png" alt="">
-                                                    <div class="normal--form__img-title">
-                                                        <a href="#" title="">
-                                                            <img src="./img/magazine_normal_11.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="normal--form__content">
-                                                <h2>
-                                                    <a href="#" title="">
-                                                        Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                    </a>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <!-- normal 3 -->
-                                        <div class="block__normal--form">
-                                            <div class="normal--form__img">
-                                                <div class="normal--form__img-card">
-                                                    <img src="./img/magazine_normal_3.png" alt="">
-                                                    <div class="normal--form__img-title">
-                                                        <a href="#" title="">
-                                                            <img src="./img/magazine_normal_11.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="normal--form__content">
-                                                <h2>
-                                                    <a href="#" title="">
-                                                        Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                    </a>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <!-- normal 4 -->
-                                        <div class="block__normal--form">
-                                            <div class="normal--form__img">
-                                                <div class="normal--form__img-card">
-                                                    <img src="./img/magazine_normal_4.png" alt="">
-                                                    <div class="normal--form__img-title">
-                                                        <a href="#" title="">
-                                                            <img src="./img/magazine_normal_11.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="normal--form__content">
-                                                <h2>
-                                                    <a href="#" title="">
-                                                        Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                    </a>
-                                                </h2>
-                                            </div>
-                                        </div>
+                        <!-- social 2 -->
+                        <div class="extra1-col__social--block">
+                            <div class="social-block">
+                                <div class="social-block__img">
+                                    <a href="#"
+                                        title="Giảm 50% phí trước bạ ô tô: Xe sang có giá lăn bánh giảm &quot;khủng&quot;">
+                                        <img src="./img/social_2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="social-block__news">
+                                    <div class="social-block__news--title">
+                                        <a href="#" title="">
+                                            <h2>
+                                                Giảm 50% phí trước bạ ô tô: Xe sang có giá lăn bánh giảm "khủng"
+                                            </h2>
+                                        </a>
+                                    </div>
+                                    <div class="cell-title">XÃ HỘI</div>
+                                    <div class="social-block__news--content">
+                                        Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
+                                        họp khẩn cấp trong đêm để thông tin về sự việc liên quan...
                                     </div>
                                 </div>
                             </div>
-                            <!-- block interest -->
-                            <div class="extra1-col__magazine--interest">
-                                <h2>TIN ĐỌC NHIỀU</h2>
-                                <div class="interest__content">
-                                    <!-- 1 -->
-                                    <div class="interest__content--block">
-                                        <div class="interest__content--block-number">1.</div>
-                                        <a class="interest__content--block-link" href="#" title="">
-                                            <h2>
-                                                Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                            </h2>
-                                        </a>
-                                        <img class="interest__content--block-img" src="./img/interest_1.png">
-                                    </div>
-                                    <!-- 2 -->
-                                    <div class="interest__content--block">
-                                        <div class="interest__content--block-number">2.</div>
-                                        <a class="interest__content--block-link" href="#" title="">
-                                            <h2>
-                                                Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                            </h2>
-                                        </a>
-                                        <img class="interest__content--block-img" src="./img/interest_2.png">
-                                    </div>
-                                    <!-- 3 -->
-                                    <div class="interest__content--block">
-                                        <div class="interest__content--block-number">3.</div>
-                                        <a class="interest__content--block-link" href="#" title="">
-                                            <h2>
-                                                Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                            </h2>
-                                        </a>
-                                        <img class="interest__content--block-img" src="./img/interest_3.png">
-                                    </div>
-                                    <!-- 4 -->
-                                    <div class="interest__content--block">
-                                        <div class="interest__content--block-number">4.</div>
-                                        <a class="interest__content--block-link" href="#" title="">
-                                            <h2>
-                                                Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                            </h2>
-                                        </a>
-                                        <img class="interest__content--block-img" src="./img/interest_4.png">
-                                    </div>
-                                    <!-- 5 -->
-                                    <div class="interest__content--block">
-                                        <div class="interest__content--block-number">5.</div>
-                                        <a class="interest__content--block-link" href="#" title="">
-                                            <h2>
-                                                Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                            </h2>
-                                        </a>
-                                        <img class="interest__content--block-img" src="./img/interest_5.png">
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="social-line"></div>
                         </div>
-                        <!-- news -->
-                        <div class="extra1-col__social">
-                            <!-- news 1 -->
-                            <div class="extra1-col__social--block">
-                                <div class="social-block">
-                                    <div class="social-block__img">
-                                        <a href="#" title="Bắc Kạn: Doanh nghiệp đề xuất nhiều giải pháp vượt khó hậu COVID-19">
-                                            <img src="./img/new_1.png" alt="">
+                        <!-- social 3 -->
+                        <div class="extra1-col__social--block">
+                            <div class="social-block">
+                                <div class="social-block__img">
+                                    <a href="#"
+                                        title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
+                                        <img src="./img/social_3.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="social-block__news">
+                                    <div class="social-block__news--title">
+                                        <a href="#" title="">
+                                            <h2>
+                                                Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh
+                                                chóng?
+                                            </h2>
                                         </a>
                                     </div>
-                                    <div class="social-block__news">
-                                        <div class="social-block__news--title">
-                                            <a href="#" title="">
-                                                <h2>
-                                                    Bắc Kạn: Doanh nghiệp đề xuất nhiều giải pháp vượt khó hậu COVID-19
-                                                </h2>
-                                            </a>
-                                        </div>
-                                        <div class="cell-title">TIẾP THỊ</div>
-                                        <div class="social-block__news--content">
-                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm
-                                        </div>
+                                    <div class="cell-title">KINH TẾ</div>
+                                    <div class="social-block__news--content">
+                                        Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
+                                        họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
+                                        Cuộc họp đã công bố xác nhận thêm
                                     </div>
                                 </div>
-                                <div class="social-line"></div>
                             </div>
-                            <!-- news 2 -->
-                            <div class="extra1-col__social--block">
-                                <div class="social-block">
-                                    <div class="social-block__img">
-                                        <a href="#" title="Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp">
-                                            <img src="./img/new_2.png" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="social-block__news">
-                                        <div class="social-block__news--title">
-                                            <a href="#" title="">
-                                                <h2>
-                                                    Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                </h2>
-                                            </a>
-                                        </div>
-                                        <div class="cell-title">KINH TẾ</div>
-                                        <div class="social-block__news--content">
-                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="social-line"></div>
-                            </div>
-                            <!-- news 3 -->
-                            <div class="extra1-col__social--block">
-                                <div class="social-block">
-                                    <div class="social-block__img">
-                                        <a href="#" title="Quảng Nam xây dựng chiến lược phát triển cho cây sâm Ngọc Linh và các dược liệu ">
-                                            <img src="./img/new_3.png" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="social-block__news">
-                                        <div class="social-block__news--title">
-                                            <a href="#" title="">
-                                                <h2>
-                                                    Quảng Nam xây dựng chiến lược phát triển cho cây sâm Ngọc Linh và các dược liệu
-                                                </h2>
-                                            </a>
-                                        </div>
-                                        <div class="cell-title">QUỐC TẾ</div>
-                                        <div class="social-block__news--content">
-                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="social-line"></div>
-                            </div>
-                            <!-- news 4 -->
-                            <div class="extra1-col__social--block">
-                                <div class="social-block">
-                                    <div class="social-block__img">
-                                        <a href="#" title="&quot;Lấy cung làm chủ đạo và đẩy mạnh cầu của nền kinh tế&quot;: Hiểu sao cho đúng?">
-                                            <img src="./img/new_4.png" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="social-block__news">
-                                        <div class="social-block__news--title">
-                                            <a href="#" title="">
-                                                <h2>
-                                                    "Lấy cung làm chủ đạo và đẩy mạnh cầu của nền kinh tế”: Hiểu sao cho đúng?
-                                                </h2>
-                                            </a>
-                                        </div>
-                                        <div class="cell-title">XÃ HỘI</div>
-                                        <div class="social-block__news--content">
-                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="social-line"></div>
-                            </div>
+                            <div class="social-line"></div>
                         </div>
-                        <!-- button -->
-                        <div class="button-add">
-                            <a href="#" title="Xem thêm">
-                                <img src="./img/Button.png">
-                            </a>
+                        <!-- social 4 -->
+                        <div class="extra1-col__social--block">
+                            <div class="social-block">
+                                <div class="social-block__img">
+                                    <a href="#" title="Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?">
+                                        <img src="./img/social_4.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="social-block__news">
+                                    <div class="social-block__news--title">
+                                        <a href="#" title="">
+                                            <h2>
+                                                Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?
+                                            </h2>
+                                        </a>
+                                    </div>
+                                    <div class="cell-title">KINH TẾ</div>
+                                    <div class="social-block__news--content">
+                                        Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
+                                        họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
+                                        Cuộc họp đã công bố xác nhận thêm
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-line"></div>
                         </div>
                     </div>
-                    <div class="extra1-img">
-                        <div class="extra1-img__i">
-                            <a href="#" title="CỔ PHIẾU">
-                                <img src="./img/extra1_img.png" alt="">
-                            </a>
-                            <div class="extra1-img__blank"></div>
+                    <!-- magazine -->
+                    <div class="extra1-col__magazine">
+                        <!-- block normal -->
+                        <div class="extra1-col__magazine--block">
+                            <!-- block-normal -->
+                            <div class="magazine--block__normal">
+                                <h2>EMAGAZINE</h2>
+                                <div class="block__normal">
+                                    <!-- normal 1 -->
+                                    <div class="block__normal--form">
+                                        <div class="normal--form__img">
+                                            <div class="normal--form__img-card">
+                                                <img src="./img/magazine_normal_1.png" alt="">
+                                                <div class="normal--form__img-title">
+                                                    <a href="#" title="">
+                                                        <img src="./img/magazine_normal_11.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="normal--form__content">
+                                            <h2>
+                                                <a href="#" title="">
+                                                    Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!-- normal 2 -->
+                                    <div class="block__normal--form">
+                                        <div class="normal--form__img">
+                                            <div class="normal--form__img-card">
+                                                <img src="./img/magazine_normal_2.png" alt="">
+                                                <div class="normal--form__img-title">
+                                                    <a href="#" title="">
+                                                        <img src="./img/magazine_normal_11.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="normal--form__content">
+                                            <h2>
+                                                <a href="#" title="">
+                                                    Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!-- normal 3 -->
+                                    <div class="block__normal--form">
+                                        <div class="normal--form__img">
+                                            <div class="normal--form__img-card">
+                                                <img src="./img/magazine_normal_3.png" alt="">
+                                                <div class="normal--form__img-title">
+                                                    <a href="#" title="">
+                                                        <img src="./img/magazine_normal_11.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="normal--form__content">
+                                            <h2>
+                                                <a href="#" title="">
+                                                    Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!-- normal 4 -->
+                                    <div class="block__normal--form">
+                                        <div class="normal--form__img">
+                                            <div class="normal--form__img-card">
+                                                <img src="./img/magazine_normal_4.png" alt="">
+                                                <div class="normal--form__img-title">
+                                                    <a href="#" title="">
+                                                        <img src="./img/magazine_normal_11.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="normal--form__content">
+                                            <h2>
+                                                <a href="#" title="">
+                                                    Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                                </a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <!-- block interest -->
+                        <div class="extra1-col__magazine--interest">
+                            <h2>TIN ĐỌC NHIỀU</h2>
+                            <div class="interest__content">
+                                <!-- 1 -->
+                                <div class="interest__content--block">
+                                    <div class="interest__content--block-number">1.</div>
+                                    <a class="interest__content--block-link" href="#" title="">
+                                        <h2>
+                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                        </h2>
+                                    </a>
+                                    <img class="interest__content--block-img" src="./img/interest_1.png">
+                                </div>
+                                <!-- 2 -->
+                                <div class="interest__content--block">
+                                    <div class="interest__content--block-number">2.</div>
+                                    <a class="interest__content--block-link" href="#" title="">
+                                        <h2>
+                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                        </h2>
+                                    </a>
+                                    <img class="interest__content--block-img" src="./img/interest_2.png">
+                                </div>
+                                <!-- 3 -->
+                                <div class="interest__content--block">
+                                    <div class="interest__content--block-number">3.</div>
+                                    <a class="interest__content--block-link" href="#" title="">
+                                        <h2>
+                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                        </h2>
+                                    </a>
+                                    <img class="interest__content--block-img" src="./img/interest_3.png">
+                                </div>
+                                <!-- 4 -->
+                                <div class="interest__content--block">
+                                    <div class="interest__content--block-number">4.</div>
+                                    <a class="interest__content--block-link" href="#" title="">
+                                        <h2>
+                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                        </h2>
+                                    </a>
+                                    <img class="interest__content--block-img" src="./img/interest_4.png">
+                                </div>
+                                <!-- 5 -->
+                                <div class="interest__content--block">
+                                    <div class="interest__content--block-number">5.</div>
+                                    <a class="interest__content--block-link" href="#" title="">
+                                        <h2>
+                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                        </h2>
+                                    </a>
+                                    <img class="interest__content--block-img" src="./img/interest_5.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- news -->
+                    <div class="extra1-col__social">
+                        <!-- news 1 -->
+                        <div class="extra1-col__social--block">
+                            <div class="social-block">
+                                <div class="social-block__img">
+                                    <a href="#"
+                                        title="Bắc Kạn: Doanh nghiệp đề xuất nhiều giải pháp vượt khó hậu COVID-19">
+                                        <img src="./img/new_1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="social-block__news">
+                                    <div class="social-block__news--title">
+                                        <a href="#" title="">
+                                            <h2>
+                                                Bắc Kạn: Doanh nghiệp đề xuất nhiều giải pháp vượt khó hậu COVID-19
+                                            </h2>
+                                        </a>
+                                    </div>
+                                    <div class="cell-title">TIẾP THỊ</div>
+                                    <div class="social-block__news--content">
+                                        Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
+                                        họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
+                                        Cuộc họp đã công bố xác nhận thêm
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-line"></div>
+                        </div>
+                        <!-- news 2 -->
+                        <div class="extra1-col__social--block">
+                            <div class="social-block">
+                                <div class="social-block__img">
+                                    <a href="#" title="Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp">
+                                        <img src="./img/new_2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="social-block__news">
+                                    <div class="social-block__news--title">
+                                        <a href="#" title="">
+                                            <h2>
+                                                Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                            </h2>
+                                        </a>
+                                    </div>
+                                    <div class="cell-title">KINH TẾ</div>
+                                    <div class="social-block__news--content">
+                                        Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
+                                        họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
+                                        Cuộc họp đã công bố xác nhận thêm
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-line"></div>
+                        </div>
+                        <!-- news 3 -->
+                        <div class="extra1-col__social--block">
+                            <div class="social-block">
+                                <div class="social-block__img">
+                                    <a href="#"
+                                        title="Quảng Nam xây dựng chiến lược phát triển cho cây sâm Ngọc Linh và các dược liệu ">
+                                        <img src="./img/new_3.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="social-block__news">
+                                    <div class="social-block__news--title">
+                                        <a href="#" title="">
+                                            <h2>
+                                                Quảng Nam xây dựng chiến lược phát triển cho cây sâm Ngọc Linh và
+                                                các dược liệu
+                                            </h2>
+                                        </a>
+                                    </div>
+                                    <div class="cell-title">QUỐC TẾ</div>
+                                    <div class="social-block__news--content">
+                                        Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
+                                        họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
+                                        Cuộc họp đã công bố xác nhận thêm
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-line"></div>
+                        </div>
+                        <!-- news 4 -->
+                        <div class="extra1-col__social--block">
+                            <div class="social-block">
+                                <div class="social-block__img">
+                                    <a href="#"
+                                        title="&quot;Lấy cung làm chủ đạo và đẩy mạnh cầu của nền kinh tế&quot;: Hiểu sao cho đúng?">
+                                        <img src="./img/new_4.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="social-block__news">
+                                    <div class="social-block__news--title">
+                                        <a href="#" title="">
+                                            <h2>
+                                                "Lấy cung làm chủ đạo và đẩy mạnh cầu của nền kinh tế”: Hiểu sao cho
+                                                đúng?
+                                            </h2>
+                                        </a>
+                                    </div>
+                                    <div class="cell-title">XÃ HỘI</div>
+                                    <div class="social-block__news--content">
+                                        Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
+                                        họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
+                                        Cuộc họp đã công bố xác nhận thêm
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-line"></div>
+                        </div>
+                    </div>
+                    <!-- button -->
+                    <div class="button-add">
+                        <a href="#" title="Xem thêm">
+                            <img src="./img/Button.png">
+                        </a>
                     </div>
                 </div>
-                <!-- video -->
-                <div class="video">
-                    <!-- line -->
-                    <div class="extra1-col__line"></div>
-                    <div class="video-title">
-                        <img src="./img/video_icon_1.png">
-                        <h2>Video</h2>
+                <div class="extra1-img">
+                    <div class="extra1-img__i">
+                        <a href="#" title="CỔ PHIẾU">
+                            <img src="./img/extra1_img.png" alt="">
+                        </a>
+                        <div class="extra1-img__blank"></div>
                     </div>
-                    <div class="video-bottom">
-                        <!-- bottom-left -->
-                        <div class="video-bottom__left">
-                            <div class="video-bottom__left-img">
+                </div>
+            </div>
+            <!-- video -->
+            <div class="video">
+                <!-- line -->
+                <div class="extra1-col__line"></div>
+                <div class="video-title">
+                    <img src="./img/video_icon_1.png">
+                    <h2>Video</h2>
+                </div>
+                <div class="video-bottom">
+                    <!-- bottom-left -->
+                    <div class="video-bottom__left">
+                        <div class="video-bottom__left-img">
+                            <a href="#" title="">
+                                <div class="video-bottom__left-img--1">
+                                    <img src="./img/video_left/Rectangle 17.png">
+                                </div>
+                                <div class="video-bottom__left-img--2">
+                                    <img src="./img/video_left/Group 7.png">
+                                </div>
+                                <div class="video-bottom__left-img--3">
+                                    <img src="./img/video_left/Group 2597.png">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-bottom__left-text">
+                            <h2>
                                 <a href="#" title="">
-                                    <div class="video-bottom__left-img--1">
-                                        <img src="./img/video_left/Rectangle 17.png">
+                                    Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình
+                                    thường mới"
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+                    <!-- bottom right -->
+                    <div class="video-bottom__right">
+                        <!-- right 1 -->
+                        <div class="video-bottom__right--little">
+                            <div class="right-little__img">
+                                <a href="#" title="">
+                                    <div class="right-little__img-1">
+                                        <img src="./img/video_right_1/Rectangle 18.png">
                                     </div>
-                                    <div class="video-bottom__left-img--2">
-                                        <img src="./img/video_left/Group 7.png">
+                                    <div class="right-little__img-2">
+                                        <img src="./img/video_right_1/Group 2593.png">
                                     </div>
-                                    <div class="video-bottom__left-img--3">
-                                        <img src="./img/video_left/Group 2597.png">
+                                    <div class="right-little__img-3">
+                                        <img src="./img/video_right_1/Group 2596.png">
                                     </div>
                                 </a>
                             </div>
-                            <div class="video-bottom__left-text">
+                            <div class="right-little__text">
                                 <h2>
                                     <a href="#" title="">
-                                        Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
+                                        Quy hoạch băng tần cho hệ thống di động IMT… chưa phù
                                     </a>
                                 </h2>
                             </div>
                         </div>
-                        <!-- bottom right -->
-                        <div class="video-bottom__right">
-                            <!-- right 1 -->
-                            <div class="video-bottom__right--little">
-                                <div class="right-little__img">
-                                    <a href="#" title="">
-                                        <div class="right-little__img-1">
-                                            <img src="./img/video_right_1/Rectangle 18.png">
-                                        </div>
-                                        <div class="right-little__img-2">
-                                            <img src="./img/video_right_1/Group 2593.png">
-                                        </div>
-                                        <div class="right-little__img-3">
-                                            <img src="./img/video_right_1/Group 2596.png">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="right-little__text">
-                                    <h2>
-                                        <a href="#" title="">
-                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù
-                                        </a>
-                                    </h2>
-                                </div>
+                        <!-- right 2 -->
+                        <div class="video-bottom__right--little">
+                            <div class="right-little__img">
+                                <a href="#" title="">
+                                    <div class="right-little__img-1">
+                                        <img src="./img/video_right_2/Rectangle 19.png">
+                                    </div>
+                                    <div class="right-little__img-2">
+                                        <img src="./img/video_right_2/Group 2598.png">
+                                    </div>
+                                    <div class="right-little__img-3">
+                                        <img src="./img/video_right_2/Group 2599.png">
+                                    </div>
+                                </a>
                             </div>
-                            <!-- right 2 -->
-                            <div class="video-bottom__right--little">
-                                <div class="right-little__img">
+                            <div class="right-little__text">
+                                <h2>
                                     <a href="#" title="">
-                                        <div class="right-little__img-1">
-                                            <img src="./img/video_right_2/Rectangle 19.png">
-                                        </div>
-                                        <div class="right-little__img-2">
-                                            <img src="./img/video_right_2/Group 2598.png">
-                                        </div>
-                                        <div class="right-little__img-3">
-                                            <img src="./img/video_right_2/Group 2599.png">
-                                        </div>
+                                        Quy hoạch băng tần cho hệ thống di động IMT… chưa
                                     </a>
-                                </div>
-                                <div class="right-little__text">
-                                    <h2>
-                                        <a href="#" title="">
-                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa
-                                        </a>
-                                    </h2>
-                                </div>
-                            </div>
-                            <!-- right 3 -->
-                            <div class="video-bottom__right--little">
-                                <div class="right-little__img">
-                                    <a href="#" title="">
-                                        <div class="right-little__img-1">
-                                            <img src="./img/video_right_3/Rectangle 20.png">
-                                        </div>
-                                        <div class="right-little__img-2">
-                                            <img src="./img/video_right_3/Group 2602.png">
-                                        </div>
-                                        <div class="right-little__img-3">
-                                            <img src="./img/video_right_3/Group 2603.png">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="right-little__text">
-                                    <h2>
-                                        <a href="#" title="">
-                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa
-                                        </a>
-                                    </h2>
-                                </div>
-                            </div>
-                            <!-- right 4 -->
-                            <div class="video-bottom__right--little">
-                                <div class="right-little__img">
-                                    <a href="#" title="">
-                                        <div class="right-little__img-1">
-                                            <img src="./img/video_right_4/Rectangle 21.png">
-                                        </div>
-                                        <div class="right-little__img-2">
-                                            <img src="./img/video_right_4/Group 2600.png">
-                                        </div>
-                                        <div class="right-little__img-3">
-                                            <img src="./img/video_right_4/Group 2601.png">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="right-little__text">
-                                    <h2>
-                                        <a href="#" title="">
-                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa
-                                        </a>
-                                    </h2>
-                                </div>
+                                </h2>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- lasttttttt -->
-                <div class="last">
-                    <div class="last-left">
-                        <div class="last-left__block">
-                            <!-- sự kiện -->
-                            <div class="extra1-col__line"></div>
-                            <div class="left__block--title">
-                                <div class="block--title__left">
-                                    <img src="./img/sukien.png" alt="">
-                                    <h2>SỰ KIỆN</h2>
-                                </div>
-                                <div class="block--title__right">
-                                    <ul>
-                                        <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
-                                        <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
-                                        <li><a href="#" title="">TIÊU ĐIỂM</a></li>
-                                        <li>
-                                            <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                        <!-- right 3 -->
+                        <div class="video-bottom__right--little">
+                            <div class="right-little__img">
+                                <a href="#" title="">
+                                    <div class="right-little__img-1">
+                                        <img src="./img/video_right_3/Rectangle 20.png">
+                                    </div>
+                                    <div class="right-little__img-2">
+                                        <img src="./img/video_right_3/Group 2602.png">
+                                    </div>
+                                    <div class="right-little__img-3">
+                                        <img src="./img/video_right_3/Group 2603.png">
+                                    </div>
+                                </a>
                             </div>
-                            <div class="left__block--content">
-                                <div class="left__block--content-left">
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/sukien_left_1.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/sukien_left_2.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="left__block--content-right">
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh phúc được nhân lên
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương cho phòng Covid-19
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Bộ Xây dựng đề nghị nới việc phân lô bán nền
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Thêm một biểu tượng hấp dẫn của Thủ đô
-                                            </a>
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- doanh nghiệp -->
-                            <div class="extra1-col__line"></div>
-                            <div class="left__block--title">
-                                <div class="block--title__left">
-                                    <img src="./img/doanhnghiep_icon.png" alt="">
-                                    <h2>DOANH NGHIỆP</h2>
-                                </div>
-                                <div class="block--title__right">
-                                    <ul>
-                                        <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
-                                        <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
-                                        <li><a href="#" title="">TIÊU ĐIỂM</a></li>
-                                        <li>
-                                            <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="left__block--content">
-                                <div class="left__block--content-left">
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/doanhnghiep_1.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    <img src="./img/group_a.png"> Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/doanhnghiep_2.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="left__block--content-right">
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh phúc được nhân lên
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương cho phòng Covid-19
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Bộ Xây dựng đề nghị nới việc phân lô bán nền
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Thêm một biểu tượng hấp dẫn của Thủ đô
-                                            </a>
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- kinh tế -->
-                            <div class="extra1-col__line"></div>
-                            <div class="left__block--title">
-                                <div class="block--title__left">
-                                    <img src="./img/kinhte_icon.png" alt="">
-                                    <h2>KINH TẾ</h2>
-                                </div>
-                                <div class="block--title__right">
-                                    <ul>
-                                        <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
-                                        <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
-                                        <li><a href="#" title="">TIÊU ĐIỂM</a></li>
-                                        <li>
-                                            <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="left__block--content">
-                                <div class="left__block--content-left">
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/kinhte_1.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/kinhte_2.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="left__block--content-right">
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh phúc được nhân lên
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương cho phòng Covid-19
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Bộ Xây dựng đề nghị nới việc phân lô bán nền
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Thêm một biểu tượng hấp dẫn của Thủ đô
-                                            </a>
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- xã hội -->
-                            <div class="extra1-col__line"></div>
-                            <div class="left__block--title">
-                                <div class="block--title__left">
-                                    <img src="./img/xahoi_icon.png" alt="">
-                                    <h2>XÃ HỘI</h2>
-                                </div>
-                                <div class="block--title__right">
-                                    <ul>
-                                        <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
-                                        <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
-                                        <li><a href="#" title="">TIÊU ĐIỂM</a></li>
-                                        <li>
-                                            <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="left__block--content">
-                                <div class="left__block--content-left">
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/xahoi_1.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/xahoi_2.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="left__block--content-right">
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh phúc được nhân lên
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương cho phòng Covid-19
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Bộ Xây dựng đề nghị nới việc phân lô bán nền
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Thêm một biểu tượng hấp dẫn của Thủ đô
-                                            </a>
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- pháp luật -->
-                            <div class="extra1-col__line"></div>
-                            <div class="left__block--title">
-                                <div class="block--title__left">
-                                    <img src="./img/Law.png" alt="">
-                                    <h2>PHÁP LUẬT</h2>
-                                </div>
-                                <div class="block--title__right">
-                                    <ul>
-                                        <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
-                                        <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
-                                        <li><a href="#" title="">TIÊU ĐIỂM</a></li>
-                                        <li>
-                                            <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="left__block--content">
-                                <div class="left__block--content-left">
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/law_1.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/law_2.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="left__block--content-right">
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh phúc được nhân lên
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương cho phòng Covid-19
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Bộ Xây dựng đề nghị nới việc phân lô bán nền
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Thêm một biểu tượng hấp dẫn của Thủ đô
-                                            </a>
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- quốc tế -->
-                            <div class="extra1-col__line"></div>
-                            <div class="left__block--title">
-                                <div class="block--title__left">
-                                    <img src="./img/quocte.png" alt="">
-                                    <h2>QUỐC TẾ</h2>
-                                </div>
-                                <div class="block--title__right">
-                                    <ul>
-                                        <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
-                                        <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
-                                        <li><a href="#" title="">TIÊU ĐIỂM</a></li>
-                                        <li>
-                                            <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="left__block--content">
-                                <div class="left__block--content-left">
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/qt_1.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                    <div class="left__block--content-img">
-                                        <a href="#" title="">
-                                            <img src="./img/qt_2.png" alt="">
-                                        </a>
-                                        <div class="left__block--content-title">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="left__block--content-news">
-                                            <h2>
-                                                <a href="#" title="">
-                                                    Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp...
-                                                </a>
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="left__block--content-right">
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh phúc được nhân lên
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương cho phòng Covid-19
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Bộ Xây dựng đề nghị nới việc phân lô bán nền
-                                            </a>
-                                        </h2>
-                                    </div>
-                                    <div class="left__block--content-right--line"></div>
-                                    <div class="left__block--content-right--text">
-                                        <h2>
-                                            <a href="#" title="">
-                                                Thêm một biểu tượng hấp dẫn của Thủ đô
-                                            </a>
-                                        </h2>
-                                    </div>
-                                </div>
+                            <div class="right-little__text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Quy hoạch băng tần cho hệ thống di động IMT… chưa
+                                    </a>
+                                </h2>
                             </div>
                         </div>
-                    </div>
-                    <div class="last-right">
+                        <!-- right 4 -->
+                        <div class="video-bottom__right--little">
+                            <div class="right-little__img">
+                                <a href="#" title="">
+                                    <div class="right-little__img-1">
+                                        <img src="./img/video_right_4/Rectangle 21.png">
+                                    </div>
+                                    <div class="right-little__img-2">
+                                        <img src="./img/video_right_4/Group 2600.png">
+                                    </div>
+                                    <div class="right-little__img-3">
+                                        <img src="./img/video_right_4/Group 2601.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="right-little__text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Quy hoạch băng tần cho hệ thống di động IMT… chưa
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- lasttttttt -->
+            <div class="last">
+                <div class="last-left">
+                    <!-- <div class="last-left__block"> -->
+                    <!-- sự kiện -->
+                    <div class="extra1-col__line"></div>
+                    <div class="left__block--title">
+                        <div class="block--title__left">
+                            <img src="./img/sukien.png" alt="">
+                            <h2>SỰ KIỆN</h2>
+                        </div>
+                        <div class="block--title__right">
+                            <ul>
+                                <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
+                                <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
+                                <li><a href="#" title="">TIÊU ĐIỂM</a></li>
+                                <li>
+                                    <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left__block--content">
+                        <div class="left__block--content-left">
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/sukien_left_1.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/sukien_left_2.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="left__block--content-right">
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh
+                                        phúc được nhân lên
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương
+                                        cho phòng Covid-19
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Bộ Xây dựng đề nghị nới việc phân lô bán nền
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Thêm một biểu tượng hấp dẫn của Thủ đô
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- doanh nghiệp -->
+                    <div class="extra1-col__line"></div>
+                    <div class="left__block--title">
+                        <div class="block--title__left">
+                            <img src="./img/doanhnghiep_icon.png" alt="">
+                            <h2>DOANH NGHIỆP</h2>
+                        </div>
+                        <div class="block--title__right">
+                            <ul>
+                                <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
+                                <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
+                                <li><a href="#" title="">TIÊU ĐIỂM</a></li>
+                                <li>
+                                    <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left__block--content">
+                        <div class="left__block--content-left">
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/doanhnghiep_1.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            <img src="./img/group_a.png"> Quy hoạch băng tần cho hệ thống di
+                                            động IMT… chưa phù hợp
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/doanhnghiep_2.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="left__block--content-right">
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh
+                                        phúc được nhân lên
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương
+                                        cho phòng Covid-19
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Bộ Xây dựng đề nghị nới việc phân lô bán nền
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Thêm một biểu tượng hấp dẫn của Thủ đô
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- kinh tế -->
+                    <div class="extra1-col__line"></div>
+                    <div class="left__block--title">
+                        <div class="block--title__left">
+                            <img src="./img/kinhte_icon.png" alt="">
+                            <h2>KINH TẾ</h2>
+                        </div>
+                        <div class="block--title__right">
+                            <ul>
+                                <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
+                                <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
+                                <li><a href="#" title="">TIÊU ĐIỂM</a></li>
+                                <li>
+                                    <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left__block--content">
+                        <div class="left__block--content-left">
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/kinhte_1.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/kinhte_2.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="left__block--content-right">
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh
+                                        phúc được nhân lên
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương
+                                        cho phòng Covid-19
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Bộ Xây dựng đề nghị nới việc phân lô bán nền
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Thêm một biểu tượng hấp dẫn của Thủ đô
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- xã hội -->
+                    <div class="extra1-col__line"></div>
+                    <div class="left__block--title">
+                        <div class="block--title__left">
+                            <img src="./img/xahoi_icon.png" alt="">
+                            <h2>XÃ HỘI</h2>
+                        </div>
+                        <div class="block--title__right">
+                            <ul>
+                                <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
+                                <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
+                                <li><a href="#" title="">TIÊU ĐIỂM</a></li>
+                                <li>
+                                    <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left__block--content">
+                        <div class="left__block--content-left">
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/xahoi_1.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/xahoi_2.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="left__block--content-right">
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh
+                                        phúc được nhân lên
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương
+                                        cho phòng Covid-19
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Bộ Xây dựng đề nghị nới việc phân lô bán nền
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Thêm một biểu tượng hấp dẫn của Thủ đô
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- pháp luật -->
+                    <div class="extra1-col__line"></div>
+                    <div class="left__block--title">
+                        <div class="block--title__left">
+                            <img src="./img/Law.png" alt="">
+                            <h2>PHÁP LUẬT</h2>
+                        </div>
+                        <div class="block--title__right">
+                            <ul>
+                                <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
+                                <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
+                                <li><a href="#" title="">TIÊU ĐIỂM</a></li>
+                                <li>
+                                    <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left__block--content">
+                        <div class="left__block--content-left">
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/law_1.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/law_2.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="left__block--content-right">
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh
+                                        phúc được nhân lên
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương
+                                        cho phòng Covid-19
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Bộ Xây dựng đề nghị nới việc phân lô bán nền
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Thêm một biểu tượng hấp dẫn của Thủ đô
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- quốc tế -->
+                    <div class="extra1-col__line"></div>
+                    <div class="left__block--title">
+                        <div class="block--title__left">
+                            <img src="./img/quocte.png" alt="">
+                            <h2>QUỐC TẾ</h2>
+                        </div>
+                        <div class="block--title__right">
+                            <ul>
+                                <li><a href="#" title="">TRỊ - XÃ HỘI</a></li>
+                                <li><a href="#" title="">CẢI CÁCH TÀI CHÍNH</a></li>
+                                <li><a href="#" title="">TIÊU ĐIỂM</a></li>
+                                <li>
+                                    <a href="#" title=""><img src="./img/3cham.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left__block--content">
+                        <div class="left__block--content-left">
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/qt_1.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                            <div class="left__block--content-img">
+                                <a href="#" title="">
+                                    <img src="./img/qt_2.png" alt="">
+                                </a>
+                                <div class="left__block--content-title">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Hà Nội thúc đẩy quan hệ thương mại đầu tư với NB trong điều kiện
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="left__block--content-news">
+                                    <h2>
+                                        <a href="#" title="">
+                                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập
+                                            cuộc họp khẩn cấp...
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="left__block--content-right">
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        T&T Group và Hành trình yêu thương: Khi niềm tin được sẻ chia thì hạnh
+                                        phúc được nhân lên
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Hà Nội: Vận động cán bộ, công chức, người lao động ủng hộ một ngày lương
+                                        cho phòng Covid-19
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Bộ Xây dựng đề nghị nới việc phân lô bán nền
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="left__block--content-right--line"></div>
+                            <div class="left__block--content-right--text">
+                                <h2>
+                                    <a href="#" title="">
+                                        Thêm một biểu tượng hấp dẫn của Thủ đô
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-right">
+                </div>
+            </div>
         </div>
+        <!-- footer -->
         <div class="footer">
             <div class="header-nav">
                 <div class="header-nav__content">
@@ -1626,7 +1676,8 @@
                                 <img src="./img/people/Phó tổng biên tập_ Trần Thị B.png" alt="">
                             </div>
                             <div>
-                                <img src="./img/people/Chỉ được phát hành lại thông tin từ website này khi có sự đồng ý bằng văn bản của cơ quan chủ quản..png" alt="">
+                                <img src="./img/people/Chỉ được phát hành lại thông tin từ website này khi có sự đồng ý bằng văn bản của cơ quan chủ quản..png"
+                                    alt="">
                             </div>
 
                         </div>
@@ -1634,6 +1685,8 @@
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+
+</body>
 
 </html>
