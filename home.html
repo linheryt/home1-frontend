@@ -15,12 +15,10 @@
         $(function () {
             $('header-nav__content').addClass('js');
             var $button_menu = $('.button_menu'),
-                $nav = $('#header-nav__site'),
-                $close = $('button_menu-close1');
+                $nav = $('#header-nav__site');
             $button_menu.click(function () {
                 $(this).toggleClass('is-active');
                 $nav.toggleClass('is-active');
-                $close.toggleClass('is-active');
                 return false;
             });
         });
@@ -68,7 +66,7 @@
                     <button class="button_menu" type="button">
                         <img class="content--menu-list__img" src="./img/header_menu.png" alt="">
                         <span class="button_menu-close1">
-                            <img src="./img/close_1.png" alt="">
+                            <img class="button_menu-open" src="./img/close_1.png" alt="">
                             <span class="button_menu-close2">
                                 <img src="./img/close_2.png" alt="">
                             </span>
@@ -533,6 +531,7 @@
                                     <div class="social-block__news--title">
                                         <a href="#" title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh
                                         chóng?">
+ 
                                             <h2>
                                                 Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh
                                                 chóng?
@@ -590,6 +589,7 @@
                                         <a href="#" title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh
                                         chóng?">
                                             <h2>
+                                                <img src="./img/group_a.png">
                                                 Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh
                                                 chóng?
                                             </h2>
@@ -903,11 +903,70 @@
                 </div>
                 <div class="extra1-img">
                     <div class="extra1-img__i">
-                        <a href="#" title="CỔ PHIẾU">
-                            <img src="./img/extra1_img.png" alt="">
-                        </a>
-                        <div class="extra1-img__blank"></div>
+                        <div class="extra1-img__title">
+                            <a href="#" title="Ngoại hối">Ngoại hối</a>
+                            <a href="#" title="Trái phiếu">Trái phiếu</a>
+                            <a href="#" title="Các chỉ số">Các chỉ số</a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="extra1-img_col-1">
+                                    <div class="extra1-img_row-11">EURO...</div>
+                                    <div class="extra1-img_row-112">Euro / Đô...</div>
+                                </div>
+                                <div class="extra1-img_col-2">1.12633</div>
+                                <div class="extra1-img_col-3">
+                                    <div class="extra1-img_col-31">-0.27%</div>
+                                    <div class="extra1-img_col-32">-0.00306</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="extra1-img_col-1">
+                                    <div class="extra1-img_row-11">GBPU...</div>
+                                    <div class="extra1-img_row-112">Bảng Anh...</div>
+                                </div>
+                                <div class="extra1-img_col-2">1.26722</div>
+                                <div class="extra1-img_col-3">
+                                    <div class="extra1-img_col-31">-0.39%</div>
+                                    <div class="extra1-img_col-32">-0.00500</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="extra1-img_col-1">
+                                    <div class="extra1-img_row-11">USDJPY...</div>
+                                    <div class="extra1-img_row-112">Đô La Mỹ...</div>
+                                </div>
+                                <div class="extra1-img_col-2">107.843</div>
+                                <div class="extra1-img_col-3">
+                                    <div class="extra1-img_col-31">-0.54%</div>
+                                    <div class="extra1-img_col-32">-0.583</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="extra1-img_col-1">
+                                    <div class="extra1-img_row-11">USDCHF...</div>
+                                    <div class="extra1-img_row-112">Đô La Mỹ...</div>
+                                </div>
+                                <div class="extra1-img_col-22">0.95537</div>
+                                <div class="extra1-img_col-3">
+                                    <div class="extra1-img_col-31">-0.23%</div>
+                                    <div class="extra1-img_col-32">-0.00220</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="extra1-img_col-1">
+                                    <div class="extra1-img_row-11">AUDU...</div>
+                                    <div class="extra1-img_row-112">Đô La Úc...</div>
+                                </div>
+                                <div class="extra1-img_col-2">0.69235</div>
+                                <div class="extra1-img_col-3">
+                                    <div class="extra1-img_col-31">-1.38%</div>
+                                    <div class="extra1-img_col-32">-0.00970</div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
+                    <div class="extra-img__bottom"></div>
                 </div>
             </div>
             <!-- video -->
