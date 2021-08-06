@@ -1,5 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap'); */
 
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('./font/Roboto/Roboto-Regular.eot');
+    src: url('./font/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./font/Roboto/Roboto-Regular.svg#Roboto-Regular') format('svg'),
+         url('./font/Roboto/Roboto-Regular.ttf') format('truetype'),
+         url('./font/RobotoRoboto-Regular.woff') format('woff'),
+         url('./font/Roboto/Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  
+}
+  @font-face {
+    font-family: "Noto Serif";
+    src: url("./font/Noto/Noto-Serif-Bold.eot"); 
+    src: url("./font/Noto/Noto-Serif-Bold.eot?#iefix") format("embedded-opentype"), 
+         url("./font/Noto/Noto-Serif-Bold.woff2") format("woff2"),
+         url("./font/Noto/Noto-Serif-Bold.woff") format("woff"), 
+         url("./font/Noto/Noto-Serif-Bold.ttf") format("truetype"), 
+         url("./font/Noto/Noto-Serif-Bold.svg#Noto Serif") format("svg"); 
+    font-weight: normal;
+    font-style: normal;
+}
 /* BASIC SETTING */
 *,
 *::after,
@@ -14,7 +38,7 @@ html {
     /* 1rem = 10px*/
     /* 1em = 10px*/
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Regular', sans-serif;
     background: #E6E6E6;
 }
 body {
@@ -92,7 +116,7 @@ a:hover {
     font-size: 14px;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding: 10px 8px;
+    padding: 9px 8px;
     line-height: 19px;
     font-style: normal;
 }
@@ -108,6 +132,7 @@ a:hover {
     position: absolute;
     right: 0px;
     left: 0px;
+    /* margin-top: -2px; */
     z-index: -1;  
 }
 #header-nav__site.is-active {
@@ -118,7 +143,7 @@ a:hover {
     overflow: visible;
     z-index: 2;
     background-color: #ffffff;
-    border-top: 5px solid #E0E0E0;  
+    /* border-top: 5px solid #E6E6E6;  */
 }
 .header-nav__site-content {
     margin: 20px 20px;
@@ -178,42 +203,43 @@ a:hover {
     padding-left: 5px;
 }
 /********button**********/
-.button_menu {
-    background-color: transparent;
+.content--menu-list__img{
+    /* background-color: transparent; */
+    /* background-color: #095AAA; */
     border: 0;
     cursor: pointer;
-    margin: 10px;
+    padding: 10px 10px 15px 10px;
     color: inherit;
     overflow: visible;
     outline: none;
     display: block;
     text-transform: none;
-    transition: opacity 0.15s;
-    position: relative;
-    
+    transition: opacity 0.15s;   
 }
-#header-nav__site.is-active .button_menu-open {
+.button_menu {
+    position: relative;
+}
+.button_menu.is-active .content--menu-list__img{
     display: none;
+}
+.button_menu.is-active .button_menu-close1{
+    display: inline-block;
 }
 .button_menu-close1 {
     position: absolute;
-    right: -8px;
-    top: -8px;
+    right: 0px;
+    top: 0px;
     display: none;
-}
-#header-nav__site.is-active .button_menu-close1 {
-    display: block;
-    
 }
 .button_menu-close2 {
     position: absolute;
     left: 9px;
-    bottom: 7px;
+    bottom: 8px;
 }
 .button_menu-close3 {
     position: absolute;
     left: 9px;
-    bottom: 7px;
+    bottom: 8px;
 }
 /*----------------------------------------------------------*/
 /********************DESIGN FOR MAIN*****************/
@@ -247,6 +273,9 @@ a:hover {
 }
 .a__cell-content {
     padding-top: 7px;
+}
+.a__cell-content a{
+    
     font-size: 16px;
     font-weight: bold;
     color: #121212;
@@ -272,15 +301,17 @@ a:hover {
 .group-b__row--content {
     margin-top: 14px;
 }
-.content-title {
-    font-weight: bold;
+.content-title a{
+    font-weight: 700;
     font-size: 24px;
     font-style: normal;
     line-height: 32px;
     color: #121212;
+    font-family: 'Noto-Serif-Bold', serif;
+}
+.content-title {
     margin-bottom: 13px;
     margin-top: 4px;
-    font-family: 'Noto Serif', serif;
 }
 .content-news {
     font-size: 14px;
@@ -301,7 +332,7 @@ a:hover {
 .group-c__row--cell:first-child {
     margin-top: 0px;
 }
-.c-title {
+.c-title a{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -359,6 +390,7 @@ a:hover {
     justify-content: space-between;
 }
 .extra1-img__title a {
+    font-weight: 600;
     font-style: normal;
     font-size: 16px;
     line-height: 22px;
@@ -469,7 +501,7 @@ a:hover {
 .content--col__text {
     margin-top: 12px;
 }
-.content--col__text h2 {
+.content--col__text a {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -501,12 +533,15 @@ a:hover {
 .social-block__img {
     margin-right: 20px;
 }
-.social-block__news--title {
+.social-block__news--title a{
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 28px;
     color: #121212;
+    
+}
+.social-block__news--title {
     margin-bottom: 10px;
 }
 .social-block__news--title img {
@@ -617,7 +652,7 @@ a:hover {
     color: #147ADE;
     padding-right: 6px;
 }
-.interest__content--block-link {
+.interest__content--block a{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -644,7 +679,7 @@ a:hover {
 }
 
 .video-title h2 {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Noto-Serif-Bold', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -678,7 +713,7 @@ a:hover {
 .video-bottom__left-text {
     margin-top: 12px;
 }
-.video-bottom__left-text h2 {
+.video-bottom__left-text a {
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -722,13 +757,12 @@ a:hover {
     margin-bottom: 21px;
 }
 
-.right-little__text h2 {
+.right-little__text a {
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: #147ADE;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121212;
 }
 
 /******************LAST******************/
@@ -807,7 +841,7 @@ a:hover {
     margin-bottom: 39px;
 }
 
-.left__block--content-title h2 {
+.left__block--content-title a {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -838,9 +872,9 @@ a:hover {
     margin-bottom: 12px;
 }
 
-.left__block--content-right--text h2 {
+.left__block--content-right--text a {
     font-style: normal;
-    font-weight: 500;
+    font-weight: Medium;
     font-size: 14px;
     line-height: 19px;
     color: #121212;
