@@ -13,7 +13,7 @@
     font-style: normal;
   
 }
-  @font-face {
+@font-face {
     font-family: "Noto Serif";
     src: url("./font/Noto/Noto-Serif-Bold.eot"); 
     src: url("./font/Noto/Noto-Serif-Bold.eot?#iefix") format("embedded-opentype"), 
@@ -21,6 +21,17 @@
          url("./font/Noto/Noto-Serif-Bold.woff") format("woff"), 
          url("./font/Noto/Noto-Serif-Bold.ttf") format("truetype"), 
          url("./font/Noto/Noto-Serif-Bold.svg#Noto Serif") format("svg"); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "sf"; 
+    src: url("./font/SF-Regular/sf.eot"); 
+    src: url("./font/SF-Regular/sf.eot?#iefix") format("embedded-opentype"), 
+         url("./font/SF-Regular/sf.woff2") format("woff2"), 
+         url("./font/SF-Regular/sf.woff") format("woff"), 
+         url("./font/SF-Regular/sf.ttf") format("truetype"), 
+         url("./font/SF-Regular/sf.svg#sf") format("svg"); 
     font-weight: normal;
     font-style: normal;
 }
@@ -669,7 +680,6 @@ a:hover {
     padding-bottom: 19px;
 }
 .interest__content--block img {
-    margin-left: 10px;
     display: block;
 }
 .interest__content--block:last-child {
@@ -691,6 +701,7 @@ a:hover {
     font-size: 14px;
     line-height: 19px;
     color: #121212;
+    margin-left: 10px;
 }
 
 /**************button***************/
@@ -743,6 +754,14 @@ a:hover {
     position: absolute;
     right: 16px;
     bottom: 20px;
+    background: #121212;
+    color: #FFFFFF;
+    padding: 3px 9px;
+    font-family: 'SF-Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    font-style: normal;
 }
 
 .video-bottom__left-text {
@@ -787,6 +806,13 @@ a:hover {
     position: absolute;
     right: 16px;
     bottom: 17px;
+    background: #121212;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 3px 6px;
+    font-family: 'SF-Regular', sans-serif;
 }
 
 .right-little__text {
