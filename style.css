@@ -223,13 +223,16 @@ a:hover {
     display: none;
 }
 .button_menu.is-active .button_menu-close1{
-    display: inline-block;
+    display: block;
 }
 .button_menu-close1 {
     position: absolute;
     right: 0px;
     top: 0px;
     display: none;
+}
+.button_menu-close1 img {
+    display: block;
 }
 .button_menu-close2 {
     position: absolute;
@@ -291,12 +294,19 @@ a:hover {
 }
 /*****************DESIGN FOR LINE COLLUMN*********************/
 .collumn-line {
-    border-right: 2px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
 }
 /********************DESIGN FOR GROUP B***********************/
 .group-b {
     width: 452px;
     margin: 0px 15px;
+}
+.group-b__row--news {
+    height: 283px;
+    width: 452px;
+}
+.group-b__row--news img {
+    display: block;
 }
 .group-b__row--content {
     margin-top: 14px;
@@ -347,8 +357,13 @@ a:hover {
 .c-content__news {
     margin-left: 12px;
 }
+.c-content__thumbnall img{
+    display: block;
+}
 .c-content__news--c {
-    padding-top: 10px;
+    padding-top: 5px;
+}
+.c-content__news--c a {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -498,6 +513,9 @@ a:hover {
     margin-right: 28px;
     box-sizing: border-box;
 }
+.content--col__img img{
+    display: block;
+}
 .content--col__text {
     margin-top: 12px;
 }
@@ -510,11 +528,17 @@ a:hover {
 }
 /******line for group c******/
 .extra1-col__line {
-    border-bottom: 4px solid #147ADE;
+    border-bottom: 2px solid #147ADE;
     margin-right: 30px;
 }
 /*****************DESIGN FOR SOCIAL******************/
-
+.extra1-col__line1 {
+    border-bottom: 3px solid #147ADE;
+    margin-right: 30px;
+}
+.extra1-col__line2 {
+    border-bottom: 3px solid #147ADE;
+}
 .extra1-col__social {
     margin-right: 30px;
     border-top: 1px solid #E6E6E6;
@@ -533,12 +557,16 @@ a:hover {
 .social-block__img {
     margin-right: 20px;
 }
-.social-block__news--title a{
+.social-block__img img {
+    display: block;
+}
+.social-block__news--title h2{
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 28px;
     color: #121212;
+    line-height: 109%;
     
 }
 .social-block__news--title {
@@ -554,6 +582,7 @@ a:hover {
     line-height: 20px;
     color: #454545;
     margin-top: 10px;
+    line-height: 122%;
 }
 
 .social-line {
@@ -579,6 +608,9 @@ a:hover {
 .normal--form__img-card {
     position: relative;
     /* margin-right: 20px; */
+}
+.normal--form__img-card img {
+    display: block;
 }
 .normal--form__img-background {
     position: absolute;
@@ -638,6 +670,7 @@ a:hover {
 }
 .interest__content--block img {
     margin-left: 10px;
+    display: block;
 }
 .interest__content--block:last-child {
     border-bottom: none;
@@ -698,7 +731,9 @@ a:hover {
 .video-bottom__left-img--1 {
     position: relative;
 }
-
+.video-bottom__left-img--1 img {
+    display: block;
+}
 .video-bottom__left-img--2 {
     position: absolute;
     left: 217px;
@@ -739,7 +774,9 @@ a:hover {
 .right-little__img-1 {
     position: relative;
 }
-
+.right-little__img-1 img {
+    display: block;
+}
 .right-little__img-2 {
     position: absolute;
     top: 47px;
@@ -828,7 +865,6 @@ a:hover {
 
 .left__block--content {
     display: flex;
-    margin-bottom: 20px;
 }
 
 .left__block--content-left {
@@ -840,7 +876,9 @@ a:hover {
     width: 218px;
     margin-bottom: 39px;
 }
-
+.left__block--content-img img {
+    display: block;
+}
 .left__block--content-title a {
     font-style: normal;
     font-weight: bold;
@@ -855,7 +893,7 @@ a:hover {
     margin-bottom: 12px;
 }
 
-.left__block--content-news h2 {
+.left__block--content-news a {
     font-style: bold;
     font-weight: normal;
     font-size: 14px;
@@ -874,10 +912,11 @@ a:hover {
 
 .left__block--content-right--text a {
     font-style: normal;
-    font-weight: Medium;
     font-size: 14px;
     line-height: 19px;
     color: #121212;
+    line-height: 116%;
+    font-weight: 500;
 }
 .last-right {
     background-color: #E6E6E6;
