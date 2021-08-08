@@ -403,8 +403,8 @@ a:hover {
     list-style: none;
 }
 .boder {
-    border-bottom: 1px dashed #BDBDBD;
-    margin-bottom: 1px;
+    border-bottom: 1px dotted #BDBDBD;
+    margin-top: 1px;
 }
 /************************DESIGN FOR EXTRA 1********************/
 .extra1__content {
