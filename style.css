@@ -14,26 +14,40 @@
   
 }
 @font-face {
-    font-family: "Noto Serif";
-    src: url("./font/Noto/Noto-Serif-Bold.eot"); 
-    src: url("./font/Noto/Noto-Serif-Bold.eot?#iefix") format("embedded-opentype"), 
-         url("./font/Noto/Noto-Serif-Bold.woff2") format("woff2"),
-         url("./font/Noto/Noto-Serif-Bold.woff") format("woff"), 
-         url("./font/Noto/Noto-Serif-Bold.ttf") format("truetype"), 
-         url("./font/Noto/Noto-Serif-Bold.svg#Noto Serif") format("svg"); 
+    font-family: 'Noto Serif';
+    src: url('./font/Noto/NotoSerif-Bold.eot');
+    src: url('./font/Noto/NotoSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./font/Noto/NotoSerif-Bold.woff2') format('woff2'),
+        url('./font/Noto/NotoSerif-Bold.woff') format('woff'),
+        url('./font/Noto/NotoSerif-Bold.ttf') format('truetype'),
+        url('./font/Noto/NotoSerif-Bold.svg#NotoSerif-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "SF Pro Display"; 
+    src: url("./font/SF-Pro-Regular/SF-Pro-Display-Regular.eot"); 
+    src: url("./font/SF-Pro-Regular/SF-Pro-Display-Regular.eot?#iefix") format("embedded-opentype"), 
+         url("./font/SF-Pro-Regular/SF-Pro-Display-Regular.woff2") format("woff2"), 
+         url("./font/SF-Pro-Regular/SF-Pro-Display-Regular.woff") format("woff"), 
+         url("./font/SF-Pro-Regular/SF-Pro-Display-Regular.ttf") format("truetype"), 
+         url("./font/SF-Pro-Regular/SF-Pro-Display-Regular.svg#SF Pro Display") format("svg"); 
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
-    font-family: "sf"; 
-    src: url("./font/SF-Regular/sf.eot"); 
-    src: url("./font/SF-Regular/sf.eot?#iefix") format("embedded-opentype"), 
-         url("./font/SF-Regular/sf.woff2") format("woff2"), 
-         url("./font/SF-Regular/sf.woff") format("woff"), 
-         url("./font/SF-Regular/sf.ttf") format("truetype"), 
-         url("./font/SF-Regular/sf.svg#sf") format("svg"); 
-    font-weight: normal;
+    font-family: 'Merriweather';
+    src: url('./font/MW/Merriweather-Bold.eot');
+    src: url('./font/MW/Merriweather-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./font/MW/Merriweather-Bold.woff2') format('woff2'),
+        url('./font/MW/Merriweather-Bold.woff') format('woff'),
+        url('./font/MW/Merriweather-Bold.ttf') format('truetype'),
+        url('./font/MW/Merriweather-Bold.svg#Merriweather-Bold') format('svg');
+    font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 /* BASIC SETTING */
 *,
@@ -325,10 +339,9 @@ a:hover {
 .content-title a{
     font-weight: 700;
     font-size: 24px;
-    font-style: normal;
     line-height: 32px;
     color: #121212;
-    font-family: 'Noto-Serif-Bold', serif;
+    font-family: 'Noto Serif';
 }
 .content-title {
     margin-bottom: 13px;
@@ -723,7 +736,7 @@ a:hover {
 }
 
 .video-title h2 {
-    font-family: 'Noto-Serif-Bold', serif;
+    font-family: 'Noto Serif';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -757,7 +770,7 @@ a:hover {
     background: #121212;
     color: #FFFFFF;
     padding: 3px 9px;
-    font-family: 'SF-Regular', sans-serif;
+    font-family: "SF Pro Display";
     font-size: 15px;
     font-weight: 500;
     line-height: 18px;
@@ -812,7 +825,7 @@ a:hover {
     font-weight: 500;
     font-style: normal;
     padding: 3px 6px;
-    font-family: 'SF-Regular', sans-serif;
+    font-family: "SF Pro Display";
 }
 
 .right-little__text {
@@ -951,24 +964,26 @@ a:hover {
 
 /*****************FOOTER****************/
 .footer {
-    margin-top: 35px;
+    margin-top: 29px;
     background-color: #095AAA;
-    margin-bottom: 30px;
 }
-
+.footer-line {
+    border-top: 1px solid #E6E6E6;
+}
 .footer-info {
     width: 1040px;
     margin: 0 auto;
-    border-top: 1px solid #E6E6E6;
 }
 
 .footer-infor--content {
     display: flex;
-    margin-top: 50px;
+    margin-top: 35px;
+    padding-bottom: 30px;
 }
 
 .footer-infor__logo {
     margin-right: 57.47px;
+    margin-top: 6px;
 }
 
 .footer-infor__logo-2--1 {
@@ -982,25 +997,42 @@ a:hover {
 }
 
 .footer-infor__address {
-    padding-right: 25px;
+    margin-right: 25px;
     display: grid;
-    margin-bottom: 40px;
+    width: 395px;
+}
+.footer-infor__address a {
+    color: #FFFFFF;
+}
+.footer-infor__address h2 {
+    margin-bottom: 14px;
+    font-family: 'Merriweather';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+.footer-infor__address--ad {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    margin-bottom: 2px;
 }
 .footer-infor__line {
     border: 1px solid #E6E6E6;
     opacity: 10%;
-    margin-bottom: 40px;
-}
-.infor__address-logo {
-    margin-bottom: 14px;
+    padding-bottom: 25px;
 }
 
 .footer-infor__people {
-    padding-left: 25px;
+    margin-left: 25px;
+    margin-top: 7px;
+    right: 0px;
+    display: grid;
+    width: 395px;
 }
-.footer-infor__people-1 {
-    margin-bottom: 4px;
-}
-.footer-infor__people-2 {
-    margin-bottom: 4px;
+.footer-infor__people a {
+    color: #FFFFFF;
 }
