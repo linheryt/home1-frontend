@@ -133,11 +133,7 @@ a:hover {
 .header-nav__ul-li {
     list-style: none;
 }
-.header-nav__ul-li:hover {
-    background: #0B4888;
-    color: #FFFFFF;
-}
-/* .header-nav__ul-li a .is-active {
+/* .active, .header-nav__ul-li:hover {
     background: #0B4888;
     color: #FFFFFF;
 } */

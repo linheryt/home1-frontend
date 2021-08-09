@@ -119,17 +119,21 @@ a:hover {
     margin: 0 auto;
     justify-content: space-between;
 }
-.header-nav__content--ul ul {
+/* .header-nav__content--ul ul {
     display: flex;
-}
+} */
 .header-nav__ul-li {
     list-style: none;
+    cursor: pointer;
 }
-.header-nav__ul-li:hover {
+/* .header-nav__ul-li:hover {
     background: #0B4888;
     color: #FFFFFF;
+} */
+#myID {
+    display: flex;
 }
-.header-nav__ul-li.is-active {
+.active {
     background: #0B4888;
     color: #FFFFFF;
 }
