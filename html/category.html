@@ -22,7 +22,7 @@
             });
         });
     </script>
-    <script>
+    <!-- <script>
         // Add active class to the current button (highlight it)
         var header = document.getElementById("myID");
         var btns = header.getElementsByClassName("header-nav__ul-li");
@@ -33,7 +33,7 @@
           this.className += " active";
           });
         }
-        </script>
+        </script> -->
 </head>
 <body>
     <!-- header -->
@@ -56,7 +56,7 @@
         <div class="header-nav">
             <!-- nav before -->
             <nav class="header-nav__content--ul">
-                <div id = "myID">
+                <ul>
                     <li class="header-nav__ul-li">
                         <a href="./home.html" title="TRANG CHỦ">
                             <img src="../img/logo_home.png" alt="logo_home">
@@ -74,7 +74,7 @@
                     <li class="header-nav__ul-li">
                         <a href="#" title="TÌM KIẾM"><img src="../img/header_search.png" alt=""></a>
                     </li>
-                </div>
+                </ul>
                 <div class="header-nav__content--menu">
                     <div class="button_menu">
                         <img class="content--menu-list__img" src="../img/header_menu.png" alt="">
@@ -296,7 +296,9 @@
         <div class="container-left">
             <!-- title -->
             <div class="container-left__title">
-                <div class="container-left__title--1">DOANH NGHIỆP</div>
+                <div class="container-left__title--1">
+                    <a href="#" title="DOANH NGHIỆP">DOANH NGHIỆP</a>
+                </div>
                 <ul class="container-left__title--2">
                     <li><a href="#" title="DIỄN ĐÀN">DIỄN ĐÀN</a></li>
                     <li><a href="#" title="THƯƠNG HIỆU">THƯƠNG HIỆU</a></li>

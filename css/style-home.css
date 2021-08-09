@@ -133,10 +133,10 @@ a:hover {
 .header-nav__ul-li {
     list-style: none;
 }
-/* .active, .header-nav__ul-li:hover {
+.active, .header-nav__ul-li:hover {
     background: #0B4888;
     color: #FFFFFF;
-} */
+}
 .header-nav__ul-li a {
     display: inline-flex;
     font-size: 14px;
@@ -509,7 +509,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
 }
-.extra1-col__title h2 {
+.extra1-col__title h2 a {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -529,15 +529,17 @@ a:hover {
     line-height: 16px;
     text-transform: uppercase;
     color: #454545;
+    padding-top: 9px;
+    text-align: center;   
+}
+.extra1-col__title-ul ul li a {
     padding: 0px 12px;
-    padding-top: 6px;
-    text-align: center;
     border-right: 1px solid #E6E6E6;
 }
 .extra1-col__title-ul ul li a:hover {
     color: #121212;
 }
-.extra1-col__title-ul ul li:last-child {
+.extra1-col__title-ul ul li:last-child a{
     border-right: none;
 }
 .extra1-col__content {
@@ -667,16 +669,17 @@ a:hover {
     font-size: 16px;
     line-height: 22px;
 }
-.extra1-col__magazine--block h2 {
+.block__title {  
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+.block__title a {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
     color: #147ADE;
-    margin-bottom: 15px;
-    margin-top: 8px;
 }
-
 
 /*************DESIGN FOR BLOCK INTEREST *****************/
 
@@ -684,17 +687,18 @@ a:hover {
     width: 300px;
     border-left: 1px solid #E6E6E6;
 }
-
-.extra1-col__magazine--interest h2 {
+.interest__title {
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.interest__title a {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
     color: #147ADE;
-    margin-left: 20px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    
 }
 .interest__content {
     margin-left: 20px;
@@ -703,8 +707,14 @@ a:hover {
 .interest__content--block {
     border-bottom: 1px solid #E6E6E6;
     display: flex;
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+.interest__content--block:first-child {
     padding-top: 12px;
-    padding-bottom: 19px;
+}
+.interest__content--block:last-child {
+    padding-bottom: 13px;
 }
 .interest__content--block img {
     display: block;
@@ -752,7 +762,7 @@ a:hover {
     height: 24px;
 }
 
-.video-title h2 {
+.video-title a {
     font-family: 'Noto Serif';
     font-style: normal;
     font-weight: bold;
@@ -840,7 +850,7 @@ a:hover {
     font-size: 13px;
     font-weight: 500;
     font-style: normal;
-    padding: 3px 6px;
+    padding: 0px 5px;
     font-family: "SF Pro Display";
 }
 
@@ -883,7 +893,7 @@ a:hover {
     height: 18px; */
 }
 
-.block--title__left h2 {
+.block--title__left a {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -892,7 +902,7 @@ a:hover {
     color: #147ADE;
 }
 .block--title__right {
-    margin-right: 18px;
+    margin-right: 27px;
 }
 .block--title__right ul {
     display: flex;
@@ -905,17 +915,20 @@ a:hover {
     font-size: 11px;
     line-height: 16px;
     text-transform: uppercase;
-    color: #454545;
+    color: #454545;  
+    padding-top: 4px;
+    text-align: center;
+    
+}
+.block--title__right li a {
+    border-right: 1px solid #E6E6E6;
     padding-left: 12px;
     padding-right: 5px;
-    padding-top: 5px;
-    text-align: center;
-    border-right: 1px solid #E6E6E6;
 }
 .block--title__right li a:hover {
     color: #121212;
 }
-.block--title__right li:last-child {
+.block--title__right li:last-child a{
     border-right: none;
 }
 
@@ -941,7 +954,10 @@ a:hover {
     font-size: 16px;
     line-height: 22px;
 }
-
+.left__block--content-title__img {
+    margin-right: 15px;
+    display: inline-flex;
+}
 .left__block--content-title {
     display: flex;
     margin-top: 10px;
