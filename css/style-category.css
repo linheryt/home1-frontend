@@ -455,7 +455,8 @@ a:hover {
     background-color: #095AAA;
 }
 .footer-line {
-    border-top: 1px solid #E6E6E6;
+    border-top: 1px solid #F9F9F9;
+    opacity: 10%;
 }
 .footer-info {
     width: 1040px;
@@ -508,7 +509,7 @@ a:hover {
     margin-bottom: 2px;
 }
 .footer-infor__line {
-    border: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
     opacity: 10%;
     padding-bottom: 25px;
 }
