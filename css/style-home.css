@@ -421,6 +421,7 @@ a:hover {
 .extra1-img {
     background-color: #E6E6E6;
     width: 300px;
+    margin-top: 5px;
 }
 .extra1-img__i {
     border-radius: 3px;
