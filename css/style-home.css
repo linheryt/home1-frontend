@@ -666,7 +666,7 @@ a:hover {
 }
 .normal--form__content h2 a {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 22px;
 }
@@ -735,7 +735,7 @@ a:hover {
 }
 .interest__content--block a{
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     line-height: 19px;
     margin-right: 10px;
@@ -951,7 +951,7 @@ a:hover {
 }
 .left__block--content-title a {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 22px;
 }
@@ -990,7 +990,7 @@ a:hover {
     font-size: 14px;
     line-height: 19px;
     line-height: 116%;
-    font-weight: 500;
+    font-weight: 600;
 }
 .last-right {
     background-color: #E6E6E6;
