@@ -664,6 +664,10 @@ a:hover {
     bottom: 10px;
     left: 10px;
 }
+.normal--form__content {
+    margin-top: 8px;
+    margin-right: 8px;
+}
 .normal--form__content h2 a {
     font-style: normal;
     font-weight: 700;
