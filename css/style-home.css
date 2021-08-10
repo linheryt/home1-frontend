@@ -933,8 +933,12 @@ a:hover {
 .block--title__right li a:hover {
     color: #121212;
 }
+.block--title__right li:nth-of-type(3) a {
+    border-right: none;
+}
 .block--title__right li:last-child a{
     border-right: none;
+    padding-left: 4px;
 }
 
 .left__block--content {
