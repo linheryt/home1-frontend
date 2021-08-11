@@ -36,6 +36,18 @@
 }
 @font-face {
     font-family: 'Noto Serif';
+    src: url('../font/Noto-B/NotoSerif-Bold.eot');
+    src: url('../font/Noto-B/NotoSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Noto-B/NotoSerif-Bold.woff2') format('woff2'),
+        url('../font/Noto-B/NotoSerif-Bold.woff') format('woff'),
+        url('../font/Noto-B/NotoSerif-Bold.ttf') format('truetype'),
+        url('../font/Noto-B/NotoSerif-Bold.svg#NotoSerif-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/* @font-face {
+    font-family: 'Noto Serif';
     src: url('../font/Noto/NotoSerif-Bold.eot');
     src: url('../font/Noto/NotoSerif-Bold.eot?#iefix') format('embedded-opentype'),
         url('../font/Noto/NotoSerif-Bold.woff2') format('woff2'),
@@ -45,7 +57,7 @@
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-}
+} */
 @font-face {
     font-family: "SF Pro Display"; 
     src: url("../font/SF-Pro-Regular/SF-Pro-Display-Regular.eot"); 
