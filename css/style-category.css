@@ -330,7 +330,6 @@ a:hover {
     list-style: none;
     font-size: 11px;
     line-height: 16px;
-    color: #454545;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -341,6 +340,7 @@ a:hover {
 .container-left__title--2 li a {
     border-right: 1px solid #E6E6E6;
     padding: 0px 12px;
+    color: #454545;
     /* margin-bottom: 15px; */
 }
 /*---------- desigin news -----------*/
