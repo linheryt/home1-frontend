@@ -3,15 +3,27 @@
 
 @font-face {
     font-family: 'Roboto-Regular';
-    src: url('../font/Roboto/Roboto-Regular.eot');
-    src: url('../font/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../font/Roboto/Roboto-Regular.svg#Roboto-Regular') format('svg'),
-         url('../font/Roboto/Roboto-Regular.ttf') format('truetype'),
-         url('../font/RobotoRoboto-Regular.woff') format('woff'),
-         url('../font/Roboto/Roboto-Regular.woff2') format('woff2');
+    src: url('../font/Roboto-R/Roboto-Regular.eot');
+    src: url('../font/Roboto-R/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/Roboto-R/Roboto-Regular.svg#Roboto-Regular') format('svg'),
+         url('../font/Roboto-R/Roboto-Regular.ttf') format('truetype'),
+         url('../font/Roboto-R/Roboto-Regular.woff') format('woff'),
+         url('../font/Roboto-R/Roboto-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../font/Roboto-B/Roboto-Bold.eot');
+    src: url('../font/Roboto-B/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Roboto-B/Roboto-Bold.woff2') format('woff2'),
+        url('../font/Roboto-B/Roboto-Bold.woff') format('woff'),
+        url('../font/Roboto-B/Roboto-Bold.ttf') format('truetype'),
+        url('../font/Roboto-B/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Roboto-Medium';
