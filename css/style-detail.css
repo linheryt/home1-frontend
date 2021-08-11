@@ -36,12 +36,12 @@
 }
 @font-face {
     font-family: 'NotoSerif-Bold';
-    src: url('../font/Noto/NotoSerif-Bold.eot');
-    src: url('../font/Noto/NotoSerif-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../font/Noto/NotoSerif-Bold.woff2') format('woff2'),
-        url('../font/Noto/NotoSerif-Bold.woff') format('woff'),
-        url('../font/Noto/NotoSerif-Bold.ttf') format('truetype'),
-        url('../font/Noto/NotoSerif-Bold.svg#NotoSerif-Bold') format('svg');
+    src: url('../font/Noto-B/NotoSerif-Bold.eot');
+    src: url('../font/Noto-B/NotoSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Noto-B/NotoSerif-Bold.woff2') format('woff2'),
+        url('../font/Noto-B/NotoSerif-Bold.woff') format('woff'),
+        url('../font/Noto-B/NotoSerif-Bold.ttf') format('truetype'),
+        url('../font/Noto-B/NotoSerif-Bold.svg#NotoSerif-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -319,7 +319,7 @@ a:hover {
 
 }
 .main-left__title a{
-    font-family: 'Noto Serif';
+    font-family: 'NotoSerif-Bold';
     font-size: 28px;
     font-weight: bold;
     line-height: 36px;
