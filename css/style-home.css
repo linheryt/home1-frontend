@@ -556,16 +556,15 @@ a:hover {
     margin-right: 26px;
 }
 .extra1-col__title-ul ul li {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 16px;
-    text-transform: uppercase;
-    color: #454545;
+    text-transform: uppercase; 
     padding-top: 9px;
     text-align: center;   
 }
 .extra1-col__title-ul ul li a {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #454545;
     padding: 0px 12px;
     border-right: 1px solid #E6E6E6;
 }
