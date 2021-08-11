@@ -446,6 +446,8 @@ a:hover {
 }
 .main-left__block--endp {
     display: flex;  
+    background-color: #F9F9F9;
+    border-radius: 3px;
 }
 .block--endp__1 {
     margin: 10px 0px 10px 10px;
