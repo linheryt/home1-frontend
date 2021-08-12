@@ -820,14 +820,54 @@ a:hover {
 }
 
 /**************button***************/
-
 .button-add {
+    margin: 24px auto 0px auto;
+    width: 102px;
+    background-color: #147ADE;
+    border-radius: 4px;
+}
+.button-add a {
+    display: flex;
+}
+.button-add1 {
+    padding: 7px 4px 6px 13px;
+    font-family: 'Roboto-Medium';
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.button-add2 {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 81px;
+}
+.button-add21 {
+    position: absolute;
+    width: 6px;
+    height: 1.5px;
+    top: 11px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    transform: rotate(45deg);
+}
+.button-add22 {
+    position: absolute;
+    width: 6px;
+    height: 1.5px;
+    border-radius: 2px;
+    top: 11px;
+    left: 4px;
+    background-color: #FFFFFF;
+    transform: rotate(135deg);
+}
+/* .button-add {
     margin: 24px 304px 0px 304px;
     width: 102px;
 }
 .button-add img {
     display: block;
-}
+} */
 /***********VIDEO*******/
 .video-title {
     display: flex;
