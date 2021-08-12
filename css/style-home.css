@@ -160,26 +160,36 @@ a:hover {
     display: flex;
 }
 .header-nav__ul-li {
+    display: flex;
+}
+.header-nav__ul-li {
     list-style: none;
 }
 .active, .header-nav__ul-li:hover {
     background: #0B4888;
     color: #FFFFFF;
 }
+.header-nav__ul-li:not(:first-child) a {
+    padding: 9px 12px 10px 12px;
+}
 .header-nav__ul-li a {
-    /* font-family: 'Roboto-Medium'; */
+    font-family: 'Roboto-Medium';
     font-weight: 500;
-    display: inline-flex;
     font-size: 14px;
     color: #E6E6E6;
-    text-transform: uppercase;
-    padding: 9px 12px;
+    text-transform: uppercase; 
     line-height: 19px;
-    font-style: normal;
 }
-.header-nav__ul-li a img {
-    padding-right: 6px;
-    margin-bottom: 5px;
+.header-nav__ul-li .header-nav__img1 {
+    display: block;
+    margin: 11px 6px 13px 8px
+}
+.header-nav__img2 {
+    display: block;
+    margin-top: 1px;
+}
+.header-nav__home {
+    margin: 10px 8px 10px 0px;
 }
 /*************DESIGN FOR NAV AFTER **********************/
 #header-nav__site {
@@ -200,7 +210,7 @@ a:hover {
     overflow: visible;
     z-index: 2;
     background-color: #ffffff;
-    /* border-top: 5px solid #E6E6E6;  */
+    border-top: 5px solid #BB2025; 
 }
 .header-nav__site-content {
     margin: 20px 20px;
@@ -213,6 +223,9 @@ a:hover {
 .site-content--top__block {
     margin-right: 15px;
     width: calc(100%/6);
+}
+.site-content--top__block a {
+    color: #BB2025;
 }
 .site-content--top__block ul {
     margin-top: 9px;
@@ -261,11 +274,9 @@ a:hover {
 }
 /********button**********/
 .content--menu-list__img{
-    /* background-color: transparent; */
-    /* background-color: #095AAA; */
     border: 0;
     cursor: pointer;
-    padding: 10px 0px 15px 10px;
+    padding: 10px 0px 15px 21px;
     color: inherit;
     overflow: visible;
     outline: none;
@@ -279,7 +290,39 @@ a:hover {
 .button_menu.is-active .content--menu-list__img{
     display: none;
 }
-.button_menu.is-active .button_menu-close1{
+.button_menu.is-active .button_menu-close {
+    display: block;
+}
+
+.button_menu-close {
+    position: absolute;
+    background-color: #BB2025;
+    width: 39px;
+    height: 39px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.button_menu-close1 {
+    position: absolute;
+    width: 20.55px;
+    height: 2.28px;
+    transform: rotate(45deg);
+    top: 19px;
+    right: 10px;
+    background-color: #FFFFFF;
+}
+.button_menu-close2 {
+    position: absolute;
+    width: 20.55px;
+    height: 2.28px;
+    transform: rotate(-45deg);
+    top: 19px;
+    right: 10px;
+    background-color: #FFFFFF;
+}
+/* .button_menu.is-active .button_menu-close1{
     display: block;
 }
 .button_menu-close1 {
@@ -300,7 +343,7 @@ a:hover {
     position: absolute;
     left: 9px;
     bottom: 8px;
-}
+} */
 /*----------------------------------------------------------*/
 /********************DESIGN FOR MAIN*****************/
 .main-container {
