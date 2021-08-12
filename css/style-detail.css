@@ -562,12 +562,14 @@ a:hover {
     color: #FFFFFF;
     margin: 4px 6px;
 }
+.main-left__block--keyp {
+    margin-top: 16px;
+    margin-bottom: 27px;
+}
 .main-left__block--keyp b, .main-left__block--keyp a {
     font-family: 'Roboto-Medium';
     font-size: 14px;
-    line-height: 19px;
-    margin-top: 16px;
-    margin-bottom: 27px;
+    line-height: 19px; 
     color: #454545;
 }
 /* boder */
