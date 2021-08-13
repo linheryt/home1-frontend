@@ -13,7 +13,7 @@
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script>
         $(function () {
-            var $button_menu = $('.button_menu'),
+            var $button_menu = $('.button-menu'),
                 $nav = $('#header-nav__site');
             $button_menu.click(function () {
                 $(this).toggleClass('is-active');
@@ -27,6 +27,7 @@
 <body>
     <!-- header -->
     <header class="header">
+        <!-- header top -->
         <div class="header-top">
             <h1 class="header-top__logo">
                 <a title="DT&TT" href="./home.html">
@@ -34,64 +35,54 @@
                 </a>
             </h1>
             <ul class="header-top__ul">
-                <li class="header-top__ul--li">
+                <li>
                     <a href="#" title="Tin nổi bật"><img src="../img/header_vector.png" alt="header_vector"></a>
                 </li>
-                <li class="header-top__ul--li"><a href="#" title="Biểu tình lan ra tại Mỹ"># Biểu tình lan ra tại Mỹ</a></li>
-                <li class="header-top__ul--li"><a href="#" title="Nhân sự,Đại hội Đảng các cấp"># Nhân sự,Đại hội Đảng các cấp</a></li>
-                <li class="header-top__ul--li"><a href="#" title="Dịch Covid19"># Dịch Covid19</a></li>
+                <li><a href="#" title="Biểu tình lan ra tại Mỹ"># Biểu tình lan ra tại Mỹ</a></li>
+                <li><a href="#" title="Nhân sự,Đại hội Đảng các cấp"># Nhân sự,Đại hội Đảng các cấp</a></li>
+                <li><a href="#" title="Dịch Covid19"># Dịch Covid19</a></li>
             </ul>
         </div>
         <div class="header-nav">
             <!-- nav before -->
-            <nav class="header-nav__content--ul">
+            <nav class="header-nav__ul">
+                <!-- ul -->
                 <ul>
-                    <li class="header-nav__ul-li">
+                    <li>
                         <a href="#" title="TRANG CHỦ">
                             <img class="header-nav__img1" src="../img/logo_home.png" alt="logo_home">
                         </a>
                         <a class="header-nav__home" href="#" title="TRANG CHỦ">TRANG CHỦ</a>
                     </li>
-                    <li class="header-nav__ul-li"><a href="#" title="SỰ KIỆN">SỰ KIỆN</a></li>
-                    <li class="header-nav__ul-li"><a href="./category.html" title="DOANH NGHIỆP">DOANH NGHIỆP</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="TIẾP THỊ">TIẾP THỊ</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="KINH TẾ">KINH TẾ</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="XÃ HỘI">XÃ HỘI</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="PHÁP LUẬT">PHÁP LUẬT</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="QUỐC TẾ">QUỐC TẾ</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="VIDEO">VIDEO</a></li>
-                    <li class="header-nav__ul-li">
+                    <li><a href="#" title="SỰ KIỆN">SỰ KIỆN</a></li>
+                    <li><a href="./category.html" title="DOANH NGHIỆP">DOANH NGHIỆP</a></li>
+                    <li><a href="#" title="TIẾP THỊ">TIẾP THỊ</a></li>
+                    <li><a href="#" title="KINH TẾ">KINH TẾ</a></li>
+                    <li><a href="#" title="XÃ HỘI">XÃ HỘI</a></li>
+                    <li><a href="#" title="PHÁP LUẬT">PHÁP LUẬT</a></li>
+                    <li><a href="#" title="QUỐC TẾ">QUỐC TẾ</a></li>
+                    <li><a href="#" title="VIDEO">VIDEO</a></li>
+                    <li>
                         <a href="#" title="TÌM KIẾM">
                             <img class="header-nav__img2" src="../img/header_search.png" alt="">
                         </a>
                     </li>
                 </ul>
-                <div class="header-nav__content--menu">
-                    <div class="button_menu">
-                        <img class="content--menu-list__img" src="../img/header_menu.png" alt="">
-                        <div class="button_menu-close">
-                            <div class="button_menu-close1"></div>
-                            <div class="button_menu-close2"></div>
-                        </div>
-                        <!-- <span class="button_menu-close1">
-                            <img class="button_menu-open" src="../img/close_1.png" alt="">
-                            <span class="button_menu-close2">
-                                <img src="../img/close_2.png" alt="">
-                            </span>
-                            <span class="button_menu-close3">
-                                <img src="../img/close_3.png" alt="">
-                            </span>
-                        </span> -->
+                <!-- button menu-->
+                <div class="button-menu">
+                    <img src="../img/header_menu.png" alt="">
+                    <div class="button-menu__close">
+                        <div class="button-menu__close-1"></div>
+                        <div class="button-menu__close-2"></div>
                     </div>
-                    
                 </div>
             </nav>
             <!-- nav after -->
             <nav id="header-nav__site">
                 <div class="header-nav__site-content">
                     <!-- nav after top -->
-                    <div class="header-nav__site-content--top">
-                        <div class="site-content--top__block">
+                    <div class="header-nav__site-top">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="SỰ KIỆN">SỰ KIỆN</a>
                             </h2>
@@ -113,7 +104,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="./category.html" title="DOANH NGHIỆP">DOANH NGHIỆP</a>
                             </h2>
@@ -135,7 +126,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="TIẾP THỊ">TIẾP THỊ</a>
                             </h2>
@@ -155,7 +146,7 @@
 
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="KINH TẾ">KINH TẾ</a>
                             </h2>
@@ -177,7 +168,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="XÃ HỘI">XÃ HỘI</a>
                             </h2>
@@ -199,7 +190,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="PHÁP LUẬT">PHÁP LUẬT</a>
                             </h2>
@@ -221,7 +212,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="QUỐC TẾ">QUỐC TẾ</a>
                             </h2>
@@ -240,41 +231,41 @@
 
                     </div>
                     <!-- nav after bottom -->
-                    <div class="header-nav__site-content--bottom">
-                        <div class="site-content__block">
-                            <div class="site-content__block--icon">
+                    <div class="header-nav__site-bottom">
+                        <div class="site-bottom__block">
+                            <div class="site-content__block-icon">
                                 <img src="../img/nar_after_1.png" alt="">
                             </div>
                             <h2>
                                 <a href="#" title="VIDEO">VIDEO</a>
                             </h2>
                         </div>
-                        <div class="site-content__block">
-                            <div class="site-content__block--icon">
+                        <div class="site-bottom__block">
+                            <div class="site-content__block-icon">
                                 <img src="../img/nav_after_2.png" alt="">
                             </div>
                             <h2>
                                 <a href="#" title="ẢNH">ẢNH</a>
                             </h2>
                         </div>
-                        <div class="site-content__block">
-                            <div class="site-content__block--icon">
+                        <div class="site-bottom__block">
+                            <div class="site-content__block-icon">
                                 <img src="../img/nav_after_3.png" alt="">
                             </div>
                             <h2>
                                 <a href="#" title="INFOGRAPHIC">INFOGRAPHIC</a>
                             </h2>
                         </div>
-                        <div class="site-content__block">
-                            <div class="site-content__block--icon">
+                        <div class="site-bottom__block">
+                            <div class="site-content__block-icon">
                                 <img src="../img/nav_after_4.png" alt="">
                             </div>
                             <h2>
                                 <a href="#" title="EMAGAZINE">EMAGAZINE</a>
                             </h2>
                         </div>
-                        <div class="site-content__block">
-                            <div class="site-content__block--icon">
+                        <div class="site-bottom__block">
+                            <div class="site-content__block-icon">
                                 <img src="../img/nav_after_5.png" alt="">
                             </div>
                             <h2>
