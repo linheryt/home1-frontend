@@ -644,7 +644,7 @@ a:hover {
     text-transform: uppercase;
     padding: 9px 12px;
     line-height: 19px;
-    font-style: normal;
+    font-family: 'Roboto-Medium';
 }
 .footer-nav__content--ul img {
     padding-right: 6px;
