@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +16,7 @@
         $(function () {
             var $button_menu = $('.button_menu'),
                 $nav = $('#header-nav__site');
-                $button_menu.click(function () {
+            $button_menu.click(function () {
                 $(this).toggleClass('is-active');
                 $nav.toggleClass('is-active');
                 return false;
@@ -35,9 +36,11 @@
         }
         </script> -->
 </head>
+
 <body>
     <!-- header -->
     <header class="header">
+        <!-- header top -->
         <div class="header-top">
             <h1 class="header-top__logo">
                 <a title="DT&TT" href="./home.html">
@@ -45,64 +48,54 @@
                 </a>
             </h1>
             <ul class="header-top__ul">
-                <li class="header-top__ul--li">
-                    <a href="#" title=""><img src="../img/header_vector.png" alt="header_vector"></a>
+                <li>
+                    <a href="#" title="Tin nổi bật"><img src="../img/header_vector.png" alt="header_vector"></a>
                 </li>
-                <li class="header-top__ul--li"><a href="#" title=""># Biểu tình lan ra tại Mỹ</a></li>
-                <li class="header-top__ul--li"><a href="#" title=""># Nhân sự,Đại hội Đảng các cấp</a></li>
-                <li class="header-top__ul--li"><a href="#" title=""># Dịch Covid19</a></li>
+                <li><a href="#" title="Biểu tình lan ra tại Mỹ"># Biểu tình lan ra tại Mỹ</a></li>
+                <li><a href="#" title="Nhân sự,Đại hội Đảng các cấp"># Nhân sự,Đại hội Đảng các cấp</a></li>
+                <li><a href="#" title="Dịch Covid19"># Dịch Covid19</a></li>
             </ul>
         </div>
         <div class="header-nav">
-             <!-- nav before -->
-             <nav class="header-nav__content--ul">
+            <!-- nav before -->
+            <nav class="header-nav__ul">
+                <!-- ul -->
                 <ul>
-                    <li class="header-nav__ul-li">
+                    <li>
                         <a href="#" title="TRANG CHỦ">
                             <img class="header-nav__img1" src="../img/logo_home.png" alt="logo_home">
                         </a>
                         <a class="header-nav__home" href="#" title="TRANG CHỦ">TRANG CHỦ</a>
                     </li>
-                    <li class="header-nav__ul-li"><a href="#" title="SỰ KIỆN">SỰ KIỆN</a></li>
-                    <li class="header-nav__ul-li"><a href="./category.html" title="DOANH NGHIỆP">DOANH NGHIỆP</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="TIẾP THỊ">TIẾP THỊ</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="KINH TẾ">KINH TẾ</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="XÃ HỘI">XÃ HỘI</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="PHÁP LUẬT">PHÁP LUẬT</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="QUỐC TẾ">QUỐC TẾ</a></li>
-                    <li class="header-nav__ul-li"><a href="#" title="VIDEO">VIDEO</a></li>
-                    <li class="header-nav__ul-li">
+                    <li><a href="#" title="SỰ KIỆN">SỰ KIỆN</a></li>
+                    <li><a href="./category.html" title="DOANH NGHIỆP">DOANH NGHIỆP</a></li>
+                    <li><a href="#" title="TIẾP THỊ">TIẾP THỊ</a></li>
+                    <li><a href="#" title="KINH TẾ">KINH TẾ</a></li>
+                    <li><a href="#" title="XÃ HỘI">XÃ HỘI</a></li>
+                    <li><a href="#" title="PHÁP LUẬT">PHÁP LUẬT</a></li>
+                    <li><a href="#" title="QUỐC TẾ">QUỐC TẾ</a></li>
+                    <li><a href="#" title="VIDEO">VIDEO</a></li>
+                    <li>
                         <a href="#" title="TÌM KIẾM">
                             <img class="header-nav__img2" src="../img/header_search.png" alt="">
                         </a>
                     </li>
                 </ul>
-                <div class="header-nav__content--menu">
-                    <div class="button_menu">
-                        <img class="content--menu-list__img" src="../img/header_menu.png" alt="">
-                        <div class="button_menu-close">
-                            <div class="button_menu-close1"></div>
-                            <div class="button_menu-close2"></div>
-                        </div>
-                        <!-- <span class="button_menu-close1">
-                            <img class="button_menu-open" src="../img/close_1.png" alt="">
-                            <span class="button_menu-close2">
-                                <img src="../img/close_2.png" alt="">
-                            </span>
-                            <span class="button_menu-close3">
-                                <img src="../img/close_3.png" alt="">
-                            </span>
-                        </span> -->
+                <!-- button menu-->
+                <div class="button-menu">
+                    <img src="../img/header_menu.png" alt="">
+                    <div class="button-menu__close">
+                        <div class="button-menu__close-1"></div>
+                        <div class="button-menu__close-2"></div>
                     </div>
-                    
                 </div>
             </nav>
             <!-- nav after -->
             <nav id="header-nav__site">
                 <div class="header-nav__site-content">
                     <!-- nav after top -->
-                    <div class="header-nav__site-content--top">
-                        <div class="site-content--top__block">
+                    <div class="header-nav__site-top">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="SỰ KIỆN">SỰ KIỆN</a>
                             </h2>
@@ -124,9 +117,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
-                                <a href="#" title="DOANH NGHIỆP">DOANH NGHIỆP</a>
+                                <a href="./category.html" title="DOANH NGHIỆP">DOANH NGHIỆP</a>
                             </h2>
                             <ul>
                                 <li>
@@ -146,7 +139,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="TIẾP THỊ">TIẾP THỊ</a>
                             </h2>
@@ -166,7 +159,7 @@
 
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="KINH TẾ">KINH TẾ</a>
                             </h2>
@@ -188,7 +181,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="XÃ HỘI">XÃ HỘI</a>
                             </h2>
@@ -210,7 +203,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="PHÁP LUẬT">PHÁP LUẬT</a>
                             </h2>
@@ -232,7 +225,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="site-content--top__block">
+                        <div class="site-top__block">
                             <h2>
                                 <a href="#" title="QUỐC TẾ">QUỐC TẾ</a>
                             </h2>
@@ -251,41 +244,41 @@
 
                     </div>
                     <!-- nav after bottom -->
-                    <div class="header-nav__site-content--bottom">
-                        <div class="site-content__block">
-                            <div class="site-content__block--icon">
+                    <div class="header-nav__site-bottom">
+                        <div class="site-bottom__block">
+                            <div class="site-content__block-icon">
                                 <img src="../img/nar_after_1.png" alt="">
                             </div>
                             <h2>
                                 <a href="#" title="VIDEO">VIDEO</a>
                             </h2>
                         </div>
-                        <div class="site-content__block">
-                            <div class="site-content__block--icon">
+                        <div class="site-bottom__block">
+                            <div class="site-content__block-icon">
                                 <img src="../img/nav_after_2.png" alt="">
                             </div>
                             <h2>
                                 <a href="#" title="ẢNH">ẢNH</a>
                             </h2>
                         </div>
-                        <div class="site-content__block">
-                            <div class="site-content__block--icon">
+                        <div class="site-bottom__block">
+                            <div class="site-content__block-icon">
                                 <img src="../img/nav_after_3.png" alt="">
                             </div>
                             <h2>
                                 <a href="#" title="INFOGRAPHIC">INFOGRAPHIC</a>
                             </h2>
                         </div>
-                        <div class="site-content__block">
-                            <div class="site-content__block--icon">
+                        <div class="site-bottom__block">
+                            <div class="site-content__block-icon">
                                 <img src="../img/nav_after_4.png" alt="">
                             </div>
                             <h2>
                                 <a href="#" title="EMAGAZINE">EMAGAZINE</a>
                             </h2>
                         </div>
-                        <div class="site-content__block">
-                            <div class="site-content__block--icon">
+                        <div class="site-bottom__block">
+                            <div class="site-content__block-icon">
                                 <img src="../img/nav_after_5.png" alt="">
                             </div>
                             <h2>
@@ -302,54 +295,63 @@
         <div class="container-left">
             <!-- title -->
             <div class="container-left__title">
-                <div class="container-left__title--1">
+                <div class="container-left__title-1">
                     <a href="./detail.html" title="DOANH NGHIỆP">DOANH NGHIỆP</a>
                 </div>
-                <ul class="container-left__title--2">
+                <ul>
                     <li><a href="#" title="DIỄN ĐÀN">DIỄN ĐÀN</a></li>
                     <li><a href="#" title="THƯƠNG HIỆU">THƯƠNG HIỆU</a></li>
                     <li><a href="#" title="THÔNG TIN DOANH NGHIỆP">THÔNG TIN DOANH NGHIỆP</a></li>
                     <li><a href="#" title="TRÁCH NHIỆM XÃ HỘI">TRÁCH NHIỆM XÃ HỘI</a></li>
                     <li><a href="#" title="KHỞI NGHIỆP">KHỞI NGHIỆP</a></li>
                 </ul>
-            </div> 
+            </div>
             <!-- news -->
             <div class="container-left__news">
-                <div class="container-left__news--left">
-                    <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"">
+                <div class="container-left__news-left">
+                    <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình
+                        thường mới&quot;">
                         <img src="../img/group_b.png" alt="">
                     </a>
-                    <div class="news--left__title">
-                        <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"">
+                    <div class="news-left__title">
+                        <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình
+                            thường mới&quot;">
                             Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
                         </a>
                     </div>
-                    <div class="news--left__content">
-                        <a href="#" title="Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm">
-                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm</a>
+                    <div class="news-left__content">
+                        <a href="#"
+                            title="Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận thêm">
+                            Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc họp khẩn cấp trong
+                            đêm để thông tin về sự việc liên quan đến dịch Covid-19. Cuộc họp đã công bố xác nhận
+                            thêm</a>
                     </div>
                 </div>
-                <div class="container-left__news--right">
-                    <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"">
+                <div class="container-left__news-right">
+                    <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình
+                        thường mới&quot;">
                         <img src="../img/category/news_right.png">
                     </a>
-                    <div class="news--right_1">
-                        <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"">
+                    <div class="news-right__1">
+                        <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình
+                            thường mới&quot;">
                             Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
                         </a>
                     </div>
-                    <div class="news--right_2">
-                        <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"">
+                    <div class="news-right__2">
+                        <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình
+                            thường mới&quot;">
                             Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
                         </a>
                     </div>
-                    <div class="news--right_2">
-                        <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"">
+                    <div class="news-right__2">
+                        <a href="#" title="Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện &quot;bình
+                            thường mới&quot;">
                             Hà Nội thúc đẩy quan hệ thương mại đầu tư với Nhật Bản trong điều kiện "bình thường mới"
                         </a>
                     </div>
                 </div>
-            </div> 
+            </div>
             <!-- list-boder -->
             <ul class="list-boder">
                 <li class="boder"></li>
@@ -357,19 +359,18 @@
                 <li class="boder"></li>
                 <li class="boder"></li>
                 <li class="boder"></li>
-            </ul> 
+            </ul>
             <!-- list social -->
             <!-- social 1 -->
-            <div class="extra1-col__social--block">
-                <div class="social-block">
-                    <div class="social-block__img">
-                        <a href="#"
-                            title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
+            <div class="social-block">
+                <div class="social-block__content">
+                    <div class="social-block__content-img">
+                        <a href="#" title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
                             <img src="../img/social_1.png" alt="">
                         </a>
                     </div>
-                    <div class="social-block__news">
-                        <div class="social-block__news--title">
+                    <div class="social__news">
+                        <div class="social__news-title">
                             <a href="#" title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
 
                                 <h2>
@@ -377,8 +378,8 @@
                                 </h2>
                             </a>
                         </div>
-                        <div class="cell-title">KINH TẾ</div>
-                        <div class="social-block__news--content">
+                        <div class="cell_title">KINH TẾ</div>
+                        <div class="social__news-content">
                             Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
                             họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
                             Cuộc họp đã công bố xác nhận thêm
@@ -388,25 +389,24 @@
                 <div class="social-line"></div>
             </div>
             <!-- social 2 -->
-            <div class="extra1-col__social--block">
-                <div class="social-block">
-                    <div class="social-block__img">
-                        <a href="#"
-                            title="Giảm 50% phí trước bạ ô tô: Xe sang có giá lăn bánh giảm &quot;khủng&quot;">
+            <div class="social-block">
+                <div class="social-block__content">
+                    <div class="social-block__content-img">
+                        <a href="#" title="Giảm 50% phí trước bạ ô tô: Xe sang có giá lăn bánh giảm &quot;khủng&quot;">
                             <img src="../img/social_2.png" alt="">
                         </a>
                     </div>
-                    <div class="social-block__news">
-                        <div class="social-block__news--title">
-                            <a href="#" title="Giảm 50% phí trước bạ ô tô: Xe sang có giá lăn bánh giảm "
-                                khủng"">
+                    <div class="social__news">
+                        <div class="social__news-title">
+                            <a href="#" title="Giảm 50% phí trước bạ ô tô: Xe sang có giá lăn bánh giảm &quot;
+                                    khủng&quot;">
                                 <h2>
                                     Giảm 50% phí trước bạ ô tô: Xe sang có giá lăn bánh giảm "khủng"
                                 </h2>
                             </a>
                         </div>
-                        <div class="cell-title">XÃ HỘI</div>
-                        <div class="social-block__news--content">
+                        <div class="cell_title">XÃ HỘI</div>
+                        <div class="social__news-content">
                             Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
                             họp khẩn cấp trong đêm để thông tin về sự việc liên quan...
                         </div>
@@ -415,18 +415,17 @@
                 <div class="social-line"></div>
             </div>
             <!-- social 3 -->
-            <div class="extra1-col__social--block">
-                <div class="social-block">
-                    <div class="social-block__img">
-                        <a href="#"
-                            title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
+            <div class="social-block">
+                <div class="social-block__content">
+                    <div class="social-block__content-img">
+                        <a href="#" title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
                             <img src="../img/social_3.png" alt="">
                         </a>
                     </div>
-                    <div class="social-block__news">
-                        <div class="social-block__news--title">
+                    <div class="social__news">
+                        <div class="social__news-title">
                             <a href="#" title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh
-                            chóng?">
+                                chóng?">
                                 <h2>
                                     <img src="../img/group_a.png">
                                     Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh
@@ -434,8 +433,8 @@
                                 </h2>
                             </a>
                         </div>
-                        <div class="cell-title">KINH TẾ</div>
-                        <div class="social-block__news--content">
+                        <div class="cell_title">KINH TẾ</div>
+                        <div class="social__news-content">
                             Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
                             họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
                             Cuộc họp đã công bố xác nhận thêm
@@ -445,24 +444,23 @@
                 <div class="social-line"></div>
             </div>
             <!-- social 4 -->
-            <div class="extra1-col__social--block">
-                <div class="social-block">
-                    <div class="social-block__img">
+            <div class="social-block">
+                <div class="social-block__content">
+                    <div class="social-block__content-img">
                         <a href="#" title="Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?">
                             <img src="../img/social_4.png" alt="">
                         </a>
                     </div>
-                    <div class="social-block__news">
-                        <div class="social-block__news--title">
-                            <a href="#"
-                                title="Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?">
+                    <div class="social__news">
+                        <div class="social__news-title">
+                            <a href="#" title="Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?">
                                 <h2>
                                     Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?
                                 </h2>
                             </a>
                         </div>
-                        <div class="cell-title">DOANH NGHIỆP</div>
-                        <div class="social-block__news--content">
+                        <div class="cell_title">KINH TẾ</div>
+                        <div class="social__news-content">
                             Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
                             họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
                             Cuộc họp đã công bố xác nhận thêm
@@ -473,25 +471,23 @@
             </div>
             <!-- list news -->
             <!-- news 1 -->
-            <div class="extra1-col__social--block">
-                <div class="social-block">
-                    <div class="social-block__img">
-                        <a href="#"
-                            title="Bắc Kạn: Doanh nghiệp đề xuất nhiều giải pháp vượt khó hậu COVID-19">
+            <div class="social-block">
+                <div class="social-block__content">
+                    <div class="social-block__content-img">
+                        <a href="#" title="Bắc Kạn: Doanh nghiệp đề xuất nhiều giải pháp vượt khó hậu COVID-19">
                             <img src="../img/new_1.png" alt="">
                         </a>
                     </div>
-                    <div class="social-block__news">
-                        <div class="social-block__news--title">
-                            <a href="#"
-                                title="Bắc Kạn: Doanh nghiệp đề xuất nhiều giải pháp vượt khó hậu COVID-19">
+                    <div class="social__news">
+                        <div class="social__news-title">
+                            <a href="#" title="Bắc Kạn: Doanh nghiệp đề xuất nhiều giải pháp vượt khó hậu COVID-19">
                                 <h2>
                                     Bắc Kạn: Doanh nghiệp đề xuất nhiều giải pháp vượt khó hậu COVID-19
                                 </h2>
                             </a>
                         </div>
-                        <div class="cell-title">TIẾP THỊ</div>
-                        <div class="social-block__news--content">
+                        <div class="cell_title">TIẾP THỊ</div>
+                        <div class="social__news-content">
                             Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
                             họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
                             Cuộc họp đã công bố xác nhận thêm
@@ -501,23 +497,23 @@
                 <div class="social-line"></div>
             </div>
             <!-- news 2 -->
-            <div class="extra1-col__social--block">
-                <div class="social-block">
-                    <div class="social-block__img">
+            <div class="social-block">
+                <div class="social-block__content">
+                    <div class="social-block__content-img">
                         <a href="#" title="Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp">
                             <img src="../img/new_2.png" alt="">
                         </a>
                     </div>
-                    <div class="social-block__news">
-                        <div class="social-block__news--title">
+                    <div class="social__news">
+                        <div class="social__news-title">
                             <a href="#" title="Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp">
                                 <h2>
                                     Quy hoạch băng tần cho hệ thống di động IMT… chưa phù hợp
                                 </h2>
                             </a>
                         </div>
-                        <div class="cell-title">KINH TẾ</div>
-                        <div class="social-block__news--content">
+                        <div class="cell_title">KINH TẾ</div>
+                        <div class="social__news-content">
                             Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
                             họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
                             Cuộc họp đã công bố xác nhận thêm
@@ -527,16 +523,16 @@
                 <div class="social-line"></div>
             </div>
             <!-- news 3 -->
-            <div class="extra1-col__social--block">
-                <div class="social-block">
-                    <div class="social-block__img">
+            <div class="social-block">
+                <div class="social-block__content">
+                    <div class="social-block__content-img">
                         <a href="#"
                             title="Quảng Nam xây dựng chiến lược phát triển cho cây sâm Ngọc Linh và các dược liệu ">
                             <img src="../img/new_3.png" alt="">
                         </a>
                     </div>
-                    <div class="social-block__news">
-                        <div class="social-block__news--title">
+                    <div class="social__news">
+                        <div class="social__news-title">
                             <a href="#" title="Quảng Nam xây dựng chiến lược phát triển cho cây sâm Ngọc Linh và
                             các dược liệu">
                                 <h2>
@@ -545,8 +541,8 @@
                                 </h2>
                             </a>
                         </div>
-                        <div class="cell-title">QUỐC TẾ</div>
-                        <div class="social-block__news--content">
+                        <div class="cell_title">QUỐC TẾ</div>
+                        <div class="social__news-content">
                             Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
                             họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
                             Cuộc họp đã công bố xác nhận thêm
@@ -556,17 +552,17 @@
                 <div class="social-line"></div>
             </div>
             <!-- news 4 -->
-            <div class="extra1-col__social--block">
-                <div class="social-block">
-                    <div class="social-block__img">
+            <div class="social--block">
+                <div class="social-block__content">
+                    <div class="social-block__content-img">
                         <a href="#"
                             title="&quot;Lấy cung làm chủ đạo và đẩy mạnh cầu của nền kinh tế&quot;: Hiểu sao cho đúng?">
                             <img src="../img/new_4.png" alt="">
                         </a>
                     </div>
-                    <div class="social-block__news">
-                        <div class="social-block__news--title">
-                            <a href="#" title="" Lấy cung làm chủ đạo và đẩy mạnh cầu của nền kinh tế”: Hiểu
+                    <div class="social__news">
+                        <div class="social__news-title">
+                            <a href="#" title="&quot;Lấy cung làm chủ đạo và đẩy mạnh cầu của nền kinh tế&quot;: Hiểu
                                 sao cho đúng?">
                                 <h2>
                                     "Lấy cung làm chủ đạo và đẩy mạnh cầu của nền kinh tế”: Hiểu sao cho
@@ -574,8 +570,8 @@
                                 </h2>
                             </a>
                         </div>
-                        <div class="cell-title">XÃ HỘI</div>
-                        <div class="social-block__news--content">
+                        <div class="cell_title">XÃ HỘI</div>
+                        <div class="social__news-content">
                             Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
                             họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
                             Cuộc họp đã công bố xác nhận thêm
@@ -584,17 +580,16 @@
                 </div>
                 <div class="social-line"></div>
             </div>
-             <!-- social 3 -->
-             <div class="extra1-col__social--block">
-                <div class="social-block">
-                    <div class="social-block__img">
-                        <a href="#"
-                            title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
+            <!-- social 3 -->
+            <div class="social-block">
+                <div class="social-block__content">
+                    <div class="social-block__content-img">
+                        <a href="#" title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh chóng?">
                             <img src="../img/social_3.png" alt="">
                         </a>
                     </div>
-                    <div class="social-block__news">
-                        <div class="social-block__news--title">
+                    <div class="social__news">
+                        <div class="social__news-title">
                             <a href="#" title="Có 1 tỷ đồng nên đầu tư vào phân khúc BĐS nào để sinh lời nhanh
                             chóng?">
                                 <h2>
@@ -604,8 +599,8 @@
                                 </h2>
                             </a>
                         </div>
-                        <div class="cell-title">KINH TẾ</div>
-                        <div class="social-block__news--content">
+                        <div class="cell_title">KINH TẾ</div>
+                        <div class="social__news-content">
                             Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
                             họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
                             Cuộc họp đã công bố xác nhận thêm
@@ -615,24 +610,23 @@
                 <div class="social-line"></div>
             </div>
             <!-- social 4 -->
-            <div class="extra1-col__social--block">
-                <div class="social-block">
-                    <div class="social-block__img">
+            <div class="social-block">
+                <div class="social-block__content">
+                    <div class="social-block__content-img">
                         <a href="#" title="Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?">
                             <img src="../img/social_4.png" alt="">
                         </a>
                     </div>
-                    <div class="social-block__news">
-                        <div class="social-block__news--title">
-                            <a href="#"
-                                title="Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?">
+                    <div class="social__news">
+                        <div class="social__news-title">
+                            <a href="#" title="Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?">
                                 <h2>
                                     Doanh nghiệp bất động sản ảnh hưởng ra sao bởi dịch Covid 19?
                                 </h2>
                             </a>
                         </div>
-                        <div class="cell-title">DOANH NGHIỆP</div>
-                        <div class="social-block__news--content">
+                        <div class="cell_title">KINH TẾ</div>
+                        <div class="social__news-content">
                             Đêm ngày 6/3, Ban chỉ đạo phòng chống dịch Covid-19 Hà Nội triệu tập cuộc
                             họp khẩn cấp trong đêm để thông tin về sự việc liên quan đến dịch Covid-19.
                             Cuộc họp đã công bố xác nhận thêm
@@ -641,89 +635,84 @@
                 </div>
                 <div class="social-line"></div>
             </div>
-             <!-- button -->
-             <div class="button-add">
+            <!-- button -->
+            <div class="button-add">
                 <a href="#" title="Xem thêm">
-                    <div class="button-add1">Xem thêm</div>
-                    <div class="button-add2">
-                        <div class="button-add21"></div>
-                        <div class="button-add22"></div>
+                    <div class="button-add__1">Xem thêm</div>
+                    <div class="button-add__2">
+                        <div class="button-add__2-1"></div>
+                        <div class="button-add__2-2"></div>
                     </div>
-                    <!-- <img src="../img/Button.png"> -->
                 </a>
             </div>
         </div>
         <div class="container-right">
         </div>
     </div>
-     <!-- footer -->
+    <!-- footer -->
     <div class="footer">
-        <div class="footer-nav">
-            <div class="footer-nav__content">
-                <nav class="footer-nav__content--ul">
-                    <ul>
-                        <li>
-                            <img src="../img/logo_home.png" alt="logo_home">TRANG CHỦ</a>
-                        </li>
-                        <li>SỰ KIỆN</li>
-                        <li>DOANH NGHIỆP</li>
-                        <li>TIẾP THỊ</li>
-                        <li>KINH TẾ</li>
-                        <li>XÃ HỘI</li>
-                        <li>PHÁP LUẬT</li>
-                        <li>QUỐC TẾ</li>
-                        <li>VIDEO</li>
-                        <li>
-                            <img src="../img/header_search.png" alt="">
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="footer__nav">
+            <ul>
+                <li>
+                    <img src="../img/logo_home.png" alt="logo_home">TRANG CHỦ</a>
+                </li>
+                <li>SỰ KIỆN</li>
+                <li>DOANH NGHIỆP</li>
+                <li>TIẾP THỊ</li>
+                <li>KINH TẾ</li>
+                <li>XÃ HỘI</li>
+                <li>PHÁP LUẬT</li>
+                <li>QUỐC TẾ</li>
+                <li>VIDEO</li>
+                <li>
+                    <img src="../img/header_search.png" alt="">
+                </li>
+            </ul>
 
         </div>
-        <div class="footer-line"></div>
-        <div class="footer-info">
-            <div class="footer-infor--content">
-                <div class="footer-infor__logo">
+        <div class="footer__line"></div>
+        <div class="footer__info">
+            <div class="footer__info-content">
+                <div class="footer__logo">
                     <a href="./home.html" title="HOME">
-                        <div class="footer-infor__logo-1">
+                        <div class="footer__logo-1">
                             <img src="../img/logo/logo here.png" alt="">
                         </div>
-                        <div class="footer-infor__logo-2">
-                            <img class="footer-infor__logo-2--1" src="../img/logo/Rectangle 5.png" alt="">
-                            <img class="footer-infor__logo-2--2" src="../img/logo/logohere.com.png" alt="">
+                        <div class="footer__logo-2">
+                            <img class="footer__logo-2-1" src="../img/logo/Rectangle 5.png" alt="">
+                            <img class="footer__logo-2-2" src="../img/logo/logohere.com.png" alt="">
                         </div>
                     </a>
                 </div>
-                <div class="footer-infor__address">
+                <div class="footer__address">
                     <h2>Logo Here Newspaper</h2>
-                    <a class="footer-infor__address--ad" href="#" title="Địa chỉ: 85 Vũ Trọng Phụng, Thanh Xuân, Hà Nội">
+                    <a href="#" title="Địa chỉ: 85 Vũ Trọng Phụng, Thanh Xuân, Hà Nội">
                         <b>Địa chỉ: </b>
                         85 Vũ Trọng Phụng, Thanh Xuân, Hà Nội
                     </a>
-                    <a class="footer-infor__address--ad" href="#" title="Hotline: 0912 345 678">
+                    <a href="#" title="Hotline: 0912 345 678">
                         <b>Hotline: </b>
                         0912 345 678
                     </a>
-                    <a class="footer-infor__address--ad" href="#" title="Email: abc@gmail.com">
+                    <a href="#" title="Email: abc@gmail.com">
                         <b>Email: </b>
                         abc@gmail.com
                     </a>
                 </div>
-                <div class="footer-infor__line"></div>
-                <div class="footer-infor__people">
-                    <a class="footer-infor__address--ad" href="#" title="Tổng biên tập: Nguyễn Văn A">
+                <div class="footer__infor-line"></div>
+                <div class="footer__people">
+                    <a href="#" title="Tổng biên tập: Nguyễn Văn A">
                         <b>Tổng biên tập: </b>
                         Nguyễn Văn A
                     </a>
-                    <a class="footer-infor__address--ad" href="#" title="Phó Tổng biên tập: Trần Thị B">
+                    <a href="#" title="Phó Tổng biên tập: Trần Thị B">
                         <b>Phó Tổng biên tập</b>
                         Trần Thị B
                     </a>
-                    <a class="footer-infor__address--ad" href="#" title="Chỉ được phát hành lại thông tin từ website này khi có sự đồng ý bằng
+                    <a href="#" title="Chỉ được phát hành lại thông tin từ website này khi có sự đồng ý bằng
                     văn bản của cơ quan chủ quản.">
-                    Chỉ được phát hành lại thông tin từ website này khi có sự đồng ý bằng
-                    văn bản của cơ quan chủ quản.
+                        Chỉ được phát hành lại thông tin từ website này khi có sự đồng ý bằng
+                        văn bản của cơ quan chủ quản.
                     </a>
                 </div>
             </div>
@@ -731,4 +720,5 @@
         </div>
     </div>
 </body>
+
 </html>
