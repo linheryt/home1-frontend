@@ -851,9 +851,8 @@ a:hover {
 }
 
 .video-title img {
+    display: block;
     margin-right: 10px;
-    width: 24px;
-    height: 24px;
 }
 
 .video-title a {
