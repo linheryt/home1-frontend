@@ -450,9 +450,8 @@ a:hover {
 .right-cell__news {
     padding-top: 5px;
 }
-.right-cell__news-a a {
-    font-style: normal;
-    font-weight: normal;
+.right-cell__news-a {
+    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #454545;
@@ -1056,8 +1055,7 @@ a:hover {
     margin-bottom: 12px;
 }
 
-.event__col-news a {
-    font-style: bold;
+.event__col-news {
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
