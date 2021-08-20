@@ -307,7 +307,7 @@ a:hover {
 .button-menu img{
     border: 0;
     cursor: pointer;
-    padding: 10px 0px 15px 21px;
+    padding: 0px 0px 0px 21px;
     color: inherit;
     overflow: visible;
     outline: none;
@@ -315,6 +315,8 @@ a:hover {
     text-transform: none;
 }
 .button-menu {
+    display: flex;
+    align-items: center;
     position: relative;
 }
 .button-menu.is-active .button-menu img{
