@@ -472,9 +472,9 @@ a:hover {
 .social-block {
     margin: 24px 0px;
 }
-.social-block:last-child {
+/* .social-block:last-child {
     margin-bottom: 0px;
-}
+} */
 .social-block__content {
     display: flex;
 }

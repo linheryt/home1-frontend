@@ -723,13 +723,21 @@ a:hover {
     padding-bottom: 0px;
 }
 /*-------------------DESIGN FOR SOCIAL--------------------*/
-.social {
-    margin-right: 30px;
-    border-top: 1px solid #E6E6E6;
+.social__title {
+    margin-top: 17px;
 }
-
+.social__title a {
+    font-family: 'Roboto-Bold';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #147ADE;
+}
 .social-block {
     margin: 24px 0px;
+}
+.social-block:first-child {
+    margin-top: 18px;
 }
 .social-block:last-child {
     margin-bottom: 0px;
