@@ -610,7 +610,7 @@ a:hover {
     font-style: normal;
     color: #FFFFFF;
 }
-.footer__address b {
+.footer__address-content b {
     font-family: 'Roboto-Bold';
 }
 .footer__infor-line {
