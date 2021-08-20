@@ -540,7 +540,7 @@ a:hover {
     margin: 9px 6px 9px 0px;
     width: 22px;
     height: 22px;
-    border-radius: 22px;
+    border-radius: 50%;
     background-color: #BDBDBD;
 }
 .twitter a {
@@ -555,7 +555,7 @@ a:hover {
     margin: 9px 6px;
     width: 22px;
     height: 22px;
-    border-radius: 22px;
+    border-radius: 50%;
     background-color: #BDBDBD;
 }
 .zalo a {
@@ -571,7 +571,7 @@ a:hover {
     margin: 9px 6px;
     width: 22px;
     height: 22px;
-    border-radius: 22px;
+    border-radius: 50%;
     background-color: #BDBDBD;
 }
 .email a {
