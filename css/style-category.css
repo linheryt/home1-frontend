@@ -58,6 +58,18 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'SF-Pro-Display-Bold';
+    src: url('../font/SF-Pro-Bold/SFProDisplay-Bold.eot');
+    src: url('../font/SF-Pro-Bold/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/SF-Pro-Bold/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../font/SF-Pro-Bold/SFProDisplay-Bold.woff') format('woff'),
+        url('../font/SF-Pro-Bold/SFProDisplay-Bold.ttf') format('truetype'),
+        url('../font/SF-Pro-Bold/SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
     font-family: 'SF-Pro-Display-Medium';
     src: url('../font/SF-Pro-Medium/SFProDisplay-Medium.eot');
     src: url('../font/SF-Pro-Medium/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
