@@ -130,16 +130,6 @@ body {
     color: #555;
     min-width: fit-content;
 }
-.cell_title {
-    font-family: 'Roboto-Medium';
-    font-size: 11px;
-    line-height: 16px;
-    font-weight: 500;
-    font-style: normal;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #147ADE;
-}
 /*-------------------------------------------------*/
 /* SETTING FOR LINKS */
 /*-------------------------------------------------*/
@@ -150,6 +140,16 @@ a:visited {
 }
 a:hover {
     color: #0B4888;
+}
+.cell_title a{
+    font-family: 'Roboto-Medium';
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #147ADE;
 }
 /*-------------------------------------------------*/
 /************ SETTING FOR HEADING ******************/
@@ -722,16 +722,10 @@ a:hover {
 .news-right__2:last-child {
     padding-bottom: 0px;
 }
-/*-------------- social ----------------------- */
-.social__title {
-    margin-top: 17px;
-}
-.social__title a {
-    font-family: 'Roboto-Bold';
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 25px;
-    color: #147ADE;
+/*-------------------DESIGN FOR SOCIAL--------------------*/
+.social {
+    margin-right: 30px;
+    border-top: 1px solid #E6E6E6;
 }
 
 .social-block {
@@ -745,8 +739,7 @@ a:hover {
 }
 
 .social-block__content-img {
-    margin-right: 20px;
-    
+    margin-right: 20px;  
 }
 .social-block__content-img img {
     display: block;
