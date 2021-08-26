@@ -361,7 +361,7 @@ a:hover {
 }
 .left-cell {
     padding: 16px 0px;
-    border-bottom:2px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
 }
 .left-cell:last-child {
     border-bottom: none;
@@ -426,9 +426,13 @@ a:hover {
 }
 .right-cell {
     margin-top: 20px;
+    border-bottom: 1px solid #E6E6E6;
 }
 .right-cell:first-child {
     margin-top: 0px;
+}
+.right-cell:last-child {
+    border-bottom: none;
 }
 .right-cell__title a{
     font-family: 'Roboto-Bold';
@@ -459,10 +463,10 @@ a:hover {
 .right-cell__news-a a:hover {
     color: #121212;
 }
-.right__line {
+/* .right__line {
     border-bottom: 2px solid #E6E6E6;
     width: 300px;
-}
+} */
 /*----------------DESIGN FOR LINE 1---------------*/
 .list-boder {
     list-style: none;
