@@ -641,7 +641,6 @@ a:hover {
 /*-------------------DESIGN FOR SOCIAL--------------------*/
 .social {
     margin-right: 30px;
-    border-top: 1px solid #E6E6E6;
 }
 
 .social-block {
@@ -690,6 +689,8 @@ a:hover {
 /*---------------DESIGN FOR MAGARZINE ------------*/
 .magazine {
     display: flex;
+    margin-right: 30px;
+    border-bottom: 1px solid #E6E6E6;
 }
 .magazine-block {
     width: 440px;
@@ -743,7 +744,7 @@ a:hover {
 /*--------------DESIGN FOR BLOCK INTEREST ---------------*/
 
 .magazine-interest {
-    width: 300px;
+    width: 270px;
     border-left: 1px solid #E6E6E6;
 }
 .magazine-interest__title {
@@ -761,7 +762,6 @@ a:hover {
 }
 .magazine-interest__content {
     margin-left: 20px;
-    margin-right: 30px;
 }
 .interest-block {
     border-bottom: 1px solid #E6E6E6;
